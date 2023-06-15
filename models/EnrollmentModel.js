@@ -1,0 +1,36 @@
+const {sequelize} = require('../database/databaseDriver');
+const {DataTypes} = require('sequelize');
+
+const tableName = 'Enrollments';
+const options = {};
+const attributes = {
+    id_enrollment:{
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        allowNull:false,
+        autoIncrement:true
+    },
+    date_adward:{
+        type: DataTypes.DATE,
+        allowNull:true
+    },
+    state_enrollment:{
+        type:DataTypes.STRING(4),
+        allowNull:true
+    },
+    id_financing:{
+        type:DataTypes.INTEGER,
+        allowNull:false
+    },
+    id_property_number:{
+        type:DataTypes.STRING(50),
+        allowNull:false
+    },
+    id_subscriber:{
+        type:DataTypes.INTEGER,
+        allowNull:false
+    }
+};
+
+const enrollmentModel = sequelize.define(tableName,attributes,options);
+module.exports = {enrollmentModel};
