@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AndrewDelRio/BackendSistemaDeFacturacionAguasDeTogui/issues"
   },
-  "homepage": "https://github.com/AndrewDelRio/BackendSistemaDeFacturacionAguasDeTogui#readme"
+  "homepage": "https://github.com/AndrewDelRio/BackendSistemaDeFacturacionAguasDeTogui#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
