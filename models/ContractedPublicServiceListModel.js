@@ -1,7 +1,7 @@
 const {sequelize} = require('../database/databaseDriver');
 const {DataTypes} = require('sequelize');
 
-const tableName = 'Contracted_public_services_list';
+const tableName = 'contracted_public_services_list';
 const options = {};
 const attributes = {
     id_enrollment:{

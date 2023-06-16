@@ -1,7 +1,7 @@
 const {sequelize} = require('../database/databaseDriver');
 const {DataTypes} = require('sequelize');
 
-const tableName = 'Charges';
+const tableName = 'charges';
 const options = {};
 const attributes = {
     id_charge:{

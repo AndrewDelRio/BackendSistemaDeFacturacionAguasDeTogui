@@ -1,24 +1,24 @@
 const {sequelize} = require('../database/databaseDriver');
 const {DataTypes} = require('sequelize');
 
-const tableName = 'domestic_public_services';
+const tableName = 'stratums';
 const options = {};
 const attributes = {
-    id_domestic_public_service:{
+    id_stratum:{
         type: DataTypes.INTEGER,
         primaryKey: true,
         allowNull:false,
         autoIncrement:true
     },
-    name_domestic_public_service:{
+    name_stratum:{
         type: DataTypes.STRING(45),
         allowNull:false
     },
-    measurement_unit_domestic_public_service:{
-        type:DataTypes.STRING(45),
+    number_stratum:{
+        type: DataTypes.INTEGER,
         allowNull:false
     }
 };
 
-const domesticPublicServiceModel = sequelize.define(tableName,attributes,options);
-module.exports = {domesticPublicServiceModel};
+const stratumModel = sequelize.define(tableName,attributes,options);
+module.exports = {stratumModel};

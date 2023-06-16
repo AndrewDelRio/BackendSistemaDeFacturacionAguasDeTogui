@@ -1,30 +1,26 @@
 const {sequelize} = require('../database/databaseDriver');
 const {DataTypes} = require('sequelize');
 
-const tableName = 'charges_list';
+const tableName = 'historical_enrollment';
 const options = {};
 const attributes = {
-    id_list_charge:{
+    id_hstorical_enrollment:{
         type: DataTypes.BIGINT,
         primaryKey: true,
         allowNull:false,
         autoIncrement:true
     },
-    date_of_charge:{
-        type: DataTypes.DATE,
+    date_operation:{
+        type: DataTypes.DATETIME,
         allowNull:false
     },
-    amount_units:{
-        type:DataTypes.INTEGER,
+    type_operation:{
+        type:DataTypes.STRING(45),
         allowNull:false
     },
     observations:{
         type:DataTypes.STRING(2000),
         allowNull:true
-    },
-    id_charge:{
-        type:DataTypes.INTEGER,
-        allowNull:false
     },
     id_enrollment:{
         type:DataTypes.INTEGER,
@@ -32,6 +28,5 @@ const attributes = {
     }
 };
 
-const chargeListModel = sequelize.define(tableName,attributes,options);
-module.exports = {chargeListModel};
-
+const historicalEnrollmentModel = sequelize.define(tableName,attributes,options);
+module.exports = {historicalEnrollmentModel};

@@ -1,24 +1,24 @@
 const {sequelize} = require('../database/databaseDriver');
 const {DataTypes} = require('sequelize');
 
-const tableName = 'domestic_public_services';
+const tableName = 'roles';
 const options = {};
 const attributes = {
-    id_domestic_public_service:{
+    id_role:{
         type: DataTypes.INTEGER,
         primaryKey: true,
         allowNull:false,
         autoIncrement:true
     },
-    name_domestic_public_service:{
+    name_role:{
         type: DataTypes.STRING(45),
         allowNull:false
     },
-    measurement_unit_domestic_public_service:{
-        type:DataTypes.STRING(45),
+    abbreviation_role:{
+        type: DataTypes.STRING(45),
         allowNull:false
     }
 };
 
-const domesticPublicServiceModel = sequelize.define(tableName,attributes,options);
-module.exports = {domesticPublicServiceModel};
+const roleModel = sequelize.define(tableName,attributes,options);
+module.exports = {roleModel};
