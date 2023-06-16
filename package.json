@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/AndrewDelRio/BackendSistemaDeFacturacionAguasDeTogui#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.32.0"
   }
 }
