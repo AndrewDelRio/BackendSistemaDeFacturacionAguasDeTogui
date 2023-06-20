@@ -19,7 +19,6 @@ loginController.post("/login", (req,res) =>{
             replacements:{access_email_user: req.body.email, access_password_user: req.body.password}
         }
     ).then((result) =>{
-        console.log(result);
         let token = jwt.sign({ user: result }, process.env.JWT_SIGNATURE, {
             expiresIn: process.env.JWT_EXP_TIME,
         });
