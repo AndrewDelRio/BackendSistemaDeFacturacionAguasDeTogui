@@ -9,8 +9,8 @@ const cors = require('cors');
 sequelize.authenticate().then(() => {
     console.log('DB is connected');
 }).catch((err) =>{
-    console.log(err);
     console.log('Error al conectar con la DB');
+    console.log(err);
 });
 app.use(cors());
 app.use(bodyParser.json());
