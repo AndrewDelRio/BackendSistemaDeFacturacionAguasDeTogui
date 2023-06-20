@@ -59,7 +59,7 @@ const attributes = {
         allowNull:false
     },
     last_access_date:{
-        type:DataTypes.DATETIME,
+        type:DataTypes.DATE,
         allowNull:true
     },
     last_access_ip_address:{
