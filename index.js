@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 const {server} = require('./server/server');
 const {sequelize} = require('./database/databaseDriver');
-//const bodyParser = require('body-parser');
 const cors = require('cors');
 
 sequelize.authenticate().then(() => {
@@ -13,9 +12,8 @@ sequelize.authenticate().then(() => {
     console.log(err);
 });
 app.use(cors());
-//app.use(bodyParser.json());
 app.use(express.json({limit: '50mb'}));
-app.use(express.urlencoded({limit: '50mb'}));
+// app.use(express.urlencoded({limit: '50mb'}));
 //middleware
 const morgan = require('morgan');
 app.use(morgan('dev'));
