@@ -2,11 +2,7 @@ const express = require("express");
 const {Op} = require("sequelize");
 const loginController = express();
 const {systemUserModel} = require("../models/SystemUserModel");
-const {roleModel} = require("../models/RoleModel");
 const jwt = require("jsonwebtoken");
-const sha256 = require("sha256");
-const { QueryTypes } = require('@sequelize/core');
-const LocalDate = require("localdate");
 
 /**
  * Login function
