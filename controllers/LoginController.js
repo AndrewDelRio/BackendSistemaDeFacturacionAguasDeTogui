@@ -14,15 +14,17 @@ const LocalDate = require("localdate");
  * Out: Name, rol, last_access 
  */
 loginController.post("/login", (req,res) =>{
-    let ts = new Date();
+    let date_ob = Date.now();
+    let ts = new Date(date_ob);
     let day = ("0" + ts.getDate()).slice(-2);
     let month = ("0" + (ts.getMonth() + 1)).slice(-2);
-    let year = ts.getYear();
+    let year = ts.getFullYear();
     let hour = ts.getHours();
     let minutes = ts.getMinutes();
     let seconds = ts.getSeconds();
     let ip_address = req.ip;
-    let date_to_database = year + '-' + month + '-' + day + ' ' + hour + ':' + minutes + ':' + seconds;
+    console.log(hour);
+    const date_to_database = year + '-' + month + '-' + day + ' ' + hour + ':' + minutes + ':' + seconds;
  let condition = {
     where:{
         access_email_user: req.body.email
@@ -49,7 +51,7 @@ loginController.post("/login", (req,res) =>{
                 expiresIn: process.env.JWT_EXP_TIME,
             });
             systemUserModel.update(
-                {last_access_date:date_to_database, last_access_ip_address: ip_address },
+                {last_access_date:('YYYY-MM-DD hh:mm:ss',date_to_database), last_access_ip_address: ip_address },
                 {where: {id_system_user: result.id_system_user}}
                 ).then(rest =>{
                     return res.status(200).json({
