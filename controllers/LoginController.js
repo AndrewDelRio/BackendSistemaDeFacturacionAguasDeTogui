@@ -13,20 +13,14 @@ loginController.post("/login", (req, res) => {
     let date = req.body.date;
     let ts = new Date(date);
     let hour = ts.getHours();
-    const maxAllowedHour = '18';
+    let maxAllowedHour = 18;
     let ip_address = req.ip;
     let condition = {
         where: {
             access_email_user: req.body.email
         }
     };
-    if (!hour <= maxAllowedHour) {
-        return res.status(200).json({
-            ok: false,
-            error: "Out of time",
-            message: "you are out of the time allowed by the system"
-        })
-    } else {
+    if (hour <= maxAllowedHour) {
         systemUserModel.findOne(condition).then((result) => {
             if (!result) {
                 return res.status(200).json({
@@ -48,7 +42,7 @@ loginController.post("/login", (req, res) => {
                         expiresIn: process.env.JWT_EXP_TIME,
                     });
                     systemUserModel.update(
-                        { last_access_date: ('YYYY-MM-DD hh:mm:ss', date_to_database), last_access_ip_address: ip_address },
+                        { last_access_date: ('YYYY-MM-DD hh:mm:ss', ts), last_access_ip_address: ip_address },
                         { where: { id_system_user: result.id_system_user } }
                     ).then(rest => {
                         return res.status(200).json({
@@ -73,6 +67,12 @@ loginController.post("/login", (req, res) => {
                 message: "Error to try connect to database"
             })
         });
+    } else {
+        return res.status(200).json({
+            ok: false,
+            error: "Out of time",
+            message: "you are out of the time allowed by the system"
+        })
     }
 });
 
