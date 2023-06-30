@@ -27,6 +27,7 @@
     "localdate": "^3.0.2",
     "morgan": "^1.10.0",
     "mysql2": "^3.3.5",
+    "nodemailer": "^6.9.3",
     "query-types": "^0.1.4",
     "sequelize": "^6.32.0",
     "sha256": "^0.2.0"
