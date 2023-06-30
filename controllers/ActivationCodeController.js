@@ -6,8 +6,10 @@ const { JWTokenVerification } = require("../middleware/Authentication");
 
 activationCodeController.post("/activationCode", (req, res) => {
     let condition = {
-
-    }
+        where: {
+            access_email_user: req.body.email
+        }
+    };
 });
 
 module.exports = { activationCodeController };
