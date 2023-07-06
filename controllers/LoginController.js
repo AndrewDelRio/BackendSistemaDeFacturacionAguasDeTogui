@@ -4,6 +4,7 @@ const loginController = express();
 const { systemUserModel } = require("../models/SystemUserModel");
 const { settingModel } = require("../models/SettingModel");
 const jwt = require("jsonwebtoken");
+const { sequelize } = require("../database/databaseDriver");
 
 /**
  * Login function

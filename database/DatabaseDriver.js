@@ -1,14 +1,15 @@
-const {Sequelize} = require('sequelize');
-const {dbUserName,dbPassword,dbName,dbHost,dbPort} = require('../config/config');
+const { Sequelize } = require('sequelize');
+const { dbUserName, dbPassword, dbName, dbHost, dbPort } = require('../config/config');
 
-const sequelize = new Sequelize(dbName, dbUserName,dbPassword,{
+const sequelize = new Sequelize(dbName, dbUserName, dbPassword, {
     host: dbHost,
     dialect: 'mysql',
-    port:dbPort,
+    port: dbPort,
     logging: false,
-    define:{
+    timezone: '-05:00',
+    define: {
         freezeTableName: true,
-        timestamps:false
+        timestamps: false
     }
 });
-module.exports = {sequelize};
+module.exports = { sequelize };
