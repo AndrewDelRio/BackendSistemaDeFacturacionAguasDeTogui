@@ -70,7 +70,7 @@ loginController.post("/login", (req, res) => {
                                         return res.status(200).json({
                                             ok: true,
                                             token: token,
-                                            message: { id_system_user: result.id_system_user, names_user: result.names_user, active_state: result.active_state, id_role: result.id_rol, last_access_date: result.last_access_date, last_access_ip_address: result.last_access_ip_address }
+                                            message: { id_system_user: result.id_system_user, names_user: result.names_user, active_state: result.active_state, id_role: result.id_rol, last_access_date: result.last_access_date, last_access_ip_address: result.last_access_ip_address, personal_email_user: result.personal_email_user, phone_number_user: result.phone_number_user }
                                         });
                                     }).catch(err => {
                                         return res.status(200).json({
