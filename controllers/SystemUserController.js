@@ -52,6 +52,50 @@ systemUserController.post("/update-password", [JWTokenVerification], (req, res) 
             message: "Error to try connect to database"
         })
     })
-})
+});
+
+systemUserController.post("/update-personal-data", [JWTokenVerification], (req, res) => {
+    let condition = {
+        where: {
+            id_system_user: req.body.id_system_user
+        }
+    };
+    systemUserModel.findOne(condition).then((result) => {
+        if (!result) {
+            return res.status(200).json({
+                ok: false,
+                error: " Not found",
+                message: "User not found"
+            });
+        } else {
+            systemUserModel.update(
+                {
+                    personal_email_user: req.body.personal_email_user,
+                    phone_number_user: req.body.phone_number_user
+                },
+                { where: { id_system_user: req.body.id_system_user } }
+            ).then((rest) => {
+                if (!rest) {
+                    return res.status(200).json({
+                        ok: false,
+                        error: "No update personal data",
+                        message: "Could not update personal information"
+                    })
+                } else {
+                    return res.status(200).json({
+                        ok: true,
+                        message: "Personal information updated successfully"
+                    })
+                }
+            }).catch((err) => {
+                return res.status(500).json({
+                    ok: false,
+                    error: err,
+                    message: "Error trying to update personal data"
+                })
+            })
+        }
+    })
+});
 
 module.exports = { systemUserController }
