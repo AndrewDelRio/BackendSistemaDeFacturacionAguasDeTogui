@@ -13,23 +13,24 @@ subscriberController.get('/getSubscriber/:idSubscriber', [JWTokenVerification], 
             id_subscriber: req.params.idSubscriber
         }
     }).then((result) => {
-        if (result) {
+        if (!(result.length === 0)) {
             const queryEnrollments = 'CALL sp_search_list_enrollments(:id_subscriber)';
             enrollmentModel.sequelize.query(queryEnrollments, {
-                type: QueryTypes.SELECT, replacements: {
+                type: QueryTypes.EXEC, replacements: {
                     id_subscriber: req.params.idSubscriber
                 }
             }).then((resultEnrollments) => {
-                if (resultEnrollments) {
-                    result[0].listEnrollments = resultEnrollments[0];
+                if (!(resultEnrollments.length === 0)) {
+                    result[0].listEnrollments = resultEnrollments;
                     res.status(200).json({
                         ok: true,
                         result: result[0]
                     })
                 } else {
+                    result[0].listEnrollments = [];
                     res.status(200).json({
                         ok: true,
-                        message: "ID subscriber don't have enrollments associated"
+                        result: result[0]
                     })
                 }
 
