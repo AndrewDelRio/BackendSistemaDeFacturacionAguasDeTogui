@@ -5,14 +5,15 @@ const { enrollmentModel } = require('../models/EnrollmentModel');
 const { JWTokenVerification } = require('../middleware/Authentication');
 const { QueryTypes } = require('@sequelize/core');
 
-enrollmentController.get('/getEnrollment/:id_enrollment', [JWTokenVerification], (req, res) => {
-    const query = 'CALL sp_search_enrollment_and_water_meter(:id_enrollment)';
+enrollmentController.get('/getEnrollment/:idEnrollment', [JWTokenVerification], (req, res) => {
+    const query = 'CALL sp_search_enrollment_and_water_meter(:idEnrollment)';
+    console.log(req.params.idEnrollment);
     enrollmentModel.sequelize.query(query, {
         type: QueryTypes.EXEC, replacements: {
-            id_enrollment: req.params.id_enrollment
+            idEnrollment: req.params.idEnrollment
         }
     }).then((result) => {
-        if (!result.length === 0) {
+        if (!(result.length === 0)) {
             return res.status(200).json({
                 ok: true,
                 result: result
