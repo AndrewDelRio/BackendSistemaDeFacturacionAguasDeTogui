@@ -9,7 +9,7 @@ const { QueryTypes } = require('@sequelize/core');
 subscriberController.get('/getSubscriber/:idSubscriber', [JWTokenVerification], (req, res) => {
     const query = 'CALL sp_search_subscriber(:id_subscriber)';
     subscriberModel.sequelize.query(query, {
-        type: QueryTypes.SELECT, replacements: {
+        type: QueryTypes.EXEC, replacements: {
             id_subscriber: req.params.idSubscriber
         }
     }).then((result) => {
@@ -21,10 +21,10 @@ subscriberController.get('/getSubscriber/:idSubscriber', [JWTokenVerification], 
                 }
             }).then((resultEnrollments) => {
                 if (resultEnrollments) {
-                    result[0].listEnrollments = resultEnrollments;
+                    result[0].listEnrollments = resultEnrollments[0];
                     res.status(200).json({
                         ok: true,
-                        result: result
+                        result: result[0]
                     })
                 } else {
                     res.status(200).json({
