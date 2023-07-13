@@ -58,7 +58,7 @@ subscriberController.post('/addSubscriber', [JWTokenVerification], (req, res) =>
         birthdate_subscriber: req.body.birthdate_subscriber,
         lastnames_subscriber: req.body.lastnames_subscriber,
         names_subscriber: req.body.names_subscriber,
-        place_expedition_document: "",
+        place_expedition_document: req.body.place_expedition_document,
         gender_subscriber: req.body.gender_subscriber,
         address_subscriber: req.body.address_subscriber,
         email_subscriber: req.body.email_subscriber,
