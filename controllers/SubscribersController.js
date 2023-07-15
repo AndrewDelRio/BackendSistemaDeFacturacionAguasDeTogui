@@ -78,6 +78,25 @@ subscriberController.post('/addSubscriber', [JWTokenVerification], (req, res) =>
     }).catch((err) => {
         res.status(500).json({ ok: false, message: 'Error to try to connect to the database', error: err });
     });
+});
+
+subscriberController.post('/updateSubscriber', [JWTokenVerification], (req, res) => {
+    subscriberModel.findByPk(req.body.id_subscriber).then((result) => {
+        if (result) {
+            result.address_subscriber = req.body.address_subscriber;
+            result.email_subscriber = req.body.email_subscriber;
+            result.cellphone_subscriber = req.body.cellphone_subscriber;
+            result.save().then(() => {
+                res.status(200).json({ ok: true, message: 'The subscriber dates have been update correctly' });
+            }).catch((err) => {
+                res.status(500).json({ ok: false, message: 'Error to try update the subscriber dates', error: err })
+            });
+        } else {
+            res.status(200).json({ ok: false, message: 'The subscriber dont exist in teh system' });
+        }
+    }).catch((err) => {
+        res.status(500).json({ ok: false, message: 'Error to try to connect to the database', error: err })
+    })
 })
 
 module.exports = { subscriberController };
