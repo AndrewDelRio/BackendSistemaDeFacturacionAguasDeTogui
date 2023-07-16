@@ -1,0 +1,5602 @@
+[
+    {
+        "department_code": 5,
+        "municipality_code": 1,
+        "municipality_name": "Medellín"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 2,
+        "municipality_name": "Abejorral"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 4,
+        "municipality_name": "Abriaquí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 21,
+        "municipality_name": "Alejandría"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 30,
+        "municipality_name": "Amaga"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 31,
+        "municipality_name": "Amalfi"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 34,
+        "municipality_name": "Andes"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 36,
+        "municipality_name": "Angelópolis"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 38,
+        "municipality_name": "Angostura"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 40,
+        "municipality_name": "Anorí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 42,
+        "municipality_name": "Santafé de Antioquia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 44,
+        "municipality_name": "Anzá"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 45,
+        "municipality_name": "Apartadó"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 51,
+        "municipality_name": "Arboletes"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 55,
+        "municipality_name": "Argelia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 59,
+        "municipality_name": "Armenia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 79,
+        "municipality_name": "Barbosa"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 86,
+        "municipality_name": "Belmira"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 88,
+        "municipality_name": "Bello"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 91,
+        "municipality_name": "Betania"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 93,
+        "municipality_name": "Betulia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 101,
+        "municipality_name": "Ciudad Bolívar"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 107,
+        "municipality_name": "Briceño"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 113,
+        "municipality_name": "Buriticá"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 120,
+        "municipality_name": "Cáceres"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 125,
+        "municipality_name": "Caicedo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 129,
+        "municipality_name": "Caldas"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 134,
+        "municipality_name": "Campamento"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 138,
+        "municipality_name": "Cañasgordas"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 142,
+        "municipality_name": "Caracolí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 145,
+        "municipality_name": "Caramanta"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 147,
+        "municipality_name": "Carepa"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 148,
+        "municipality_name": "El Carmen de Viboral"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 150,
+        "municipality_name": "Carolina"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 154,
+        "municipality_name": "Caucasia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 172,
+        "municipality_name": "Chigorodó"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 190,
+        "municipality_name": "Cisneros"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 197,
+        "municipality_name": "Cocorná"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 206,
+        "municipality_name": "Concepción"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 209,
+        "municipality_name": "Concordia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 212,
+        "municipality_name": "Copacabana"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 234,
+        "municipality_name": "Dabeiba"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 237,
+        "municipality_name": "Don Matías"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 240,
+        "municipality_name": "Ebéjico"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 250,
+        "municipality_name": "El bagre"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 264,
+        "municipality_name": "Entrerríos"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 266,
+        "municipality_name": "Envigado"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 282,
+        "municipality_name": "Fredonia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 284,
+        "municipality_name": "Frontino"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 306,
+        "municipality_name": "Giraldo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 308,
+        "municipality_name": "Girardota"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 310,
+        "municipality_name": "Gómez plata"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 313,
+        "municipality_name": "Granada"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 315,
+        "municipality_name": "Guadalupe"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 318,
+        "municipality_name": "Guarne"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 321,
+        "municipality_name": "Guatapé"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 347,
+        "municipality_name": "Heliconia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 353,
+        "municipality_name": "Hispania"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 360,
+        "municipality_name": "Itagüí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 361,
+        "municipality_name": "Ituango"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 364,
+        "municipality_name": "Jardín"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 368,
+        "municipality_name": "Jericó"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 376,
+        "municipality_name": "La ceja"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 380,
+        "municipality_name": "La estrella"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 390,
+        "municipality_name": "La pintada"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 400,
+        "municipality_name": "La Unión"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 411,
+        "municipality_name": "Liborina"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 425,
+        "municipality_name": "Maceo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 440,
+        "municipality_name": "Marinilla"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 467,
+        "municipality_name": "Montebello"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 475,
+        "municipality_name": "Murindo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 480,
+        "municipality_name": "Mutata"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 483,
+        "municipality_name": "Nariño"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 490,
+        "municipality_name": "Necoclí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 495,
+        "municipality_name": "Nechí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 501,
+        "municipality_name": "Olaya"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 541,
+        "municipality_name": "Peñol"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 543,
+        "municipality_name": "Peque"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 576,
+        "municipality_name": "Pueblorrico"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 579,
+        "municipality_name": "Puerto Berrio"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 585,
+        "municipality_name": "Puerto Nare"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 591,
+        "municipality_name": "Puerto triunfo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 604,
+        "municipality_name": "Remedios"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 607,
+        "municipality_name": "Retiro"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 615,
+        "municipality_name": "Rionegro"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 628,
+        "municipality_name": "Sabanalarga"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 631,
+        "municipality_name": "Sabaneta"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 642,
+        "municipality_name": "Salgar"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 647,
+        "municipality_name": "San Andres de Cuerquia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 649,
+        "municipality_name": "San Carlos"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 652,
+        "municipality_name": "San francisco"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 656,
+        "municipality_name": "San jerónimo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 658,
+        "municipality_name": "San José de la montaña"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 659,
+        "municipality_name": "San juan de Urabá"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 660,
+        "municipality_name": "San Luis"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 664,
+        "municipality_name": "San pedro"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 665,
+        "municipality_name": "San pedro de Urabá"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 667,
+        "municipality_name": "San Rafael"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 670,
+        "municipality_name": "San roque"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 674,
+        "municipality_name": "San Vicente"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 679,
+        "municipality_name": "Santa Bárbara"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 686,
+        "municipality_name": "Santa rosa de osos"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 690,
+        "municipality_name": "Santo domingo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 697,
+        "municipality_name": "El santuario"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 736,
+        "municipality_name": "Segovia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 756,
+        "municipality_name": "Sonsón"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 761,
+        "municipality_name": "Sopetrán"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 789,
+        "municipality_name": "Támesis"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 790,
+        "municipality_name": "Taraza"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 792,
+        "municipality_name": "Tarso"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 809,
+        "municipality_name": "Titiribí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 819,
+        "municipality_name": "Toledo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 837,
+        "municipality_name": "Turbo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 842,
+        "municipality_name": "Uramita"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 847,
+        "municipality_name": "Urrao"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 854,
+        "municipality_name": "Valdivia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 856,
+        "municipality_name": "Valparaíso"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 858,
+        "municipality_name": "Vegachi"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 861,
+        "municipality_name": "Venecia"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 873,
+        "municipality_name": "Vigía del fuerte"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 885,
+        "municipality_name": "Yalí"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 887,
+        "municipality_name": "Yarumal"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 890,
+        "municipality_name": "Yolombo"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 893,
+        "municipality_name": "Yondó"
+    },
+    {
+        "department_code": 5,
+        "municipality_code": 895,
+        "municipality_name": "Zaragoza"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 1,
+        "municipality_name": "Barranquilla"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 78,
+        "municipality_name": "Baranoa"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 137,
+        "municipality_name": "Campo de la cruz"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 141,
+        "municipality_name": "Candelaria"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 296,
+        "municipality_name": "Galapa"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 372,
+        "municipality_name": "Juan de acosta"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 421,
+        "municipality_name": "Luruaco"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 433,
+        "municipality_name": "Malambo"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 436,
+        "municipality_name": "Manatí"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 520,
+        "municipality_name": "Palmar de Varela"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 549,
+        "municipality_name": "Piojo"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 558,
+        "municipality_name": "Polonuevo"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 560,
+        "municipality_name": "Ponedera"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 573,
+        "municipality_name": "Puerto Colombia"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 606,
+        "municipality_name": "Repelón"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 634,
+        "municipality_name": "Sabanagrande"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 638,
+        "municipality_name": "Sabanalarga"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 675,
+        "municipality_name": "Santa lucia"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 685,
+        "municipality_name": "Santo tomas"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 758,
+        "municipality_name": "Soledad"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 770,
+        "municipality_name": "Suan"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 832,
+        "municipality_name": "Tubará"
+    },
+    {
+        "department_code": 8,
+        "municipality_code": 849,
+        "municipality_name": "Usiacurí"
+    },
+    {
+        "department_code": 11,
+        "municipality_code": 1,
+        "municipality_name": "Bogotá D.C."
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 1,
+        "municipality_name": "Cartagena"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 6,
+        "municipality_name": "Achí"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 30,
+        "municipality_name": "Altos del rosario"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 42,
+        "municipality_name": "Arenal"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 52,
+        "municipality_name": "Arjona"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 62,
+        "municipality_name": "Arroyo Hondo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 74,
+        "municipality_name": "Barranco de loba"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 140,
+        "municipality_name": "Calamar"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 160,
+        "municipality_name": "Cantagallo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 188,
+        "municipality_name": "Cicuco"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 212,
+        "municipality_name": "Córdoba"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 222,
+        "municipality_name": "Clemencia"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 244,
+        "municipality_name": "El Carmen de Bolívar"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 248,
+        "municipality_name": "El guamo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 268,
+        "municipality_name": "El Peñón"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 300,
+        "municipality_name": "Hatillo de loba"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 430,
+        "municipality_name": "Magangué"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 433,
+        "municipality_name": "Mahates"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 440,
+        "municipality_name": "Margarita"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 442,
+        "municipality_name": "María la baja"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 458,
+        "municipality_name": "Montecristo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 468,
+        "municipality_name": "Mompós"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 490,
+        "municipality_name": "Norosi"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 473,
+        "municipality_name": "Morales"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 549,
+        "municipality_name": "Pinillos"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 580,
+        "municipality_name": "Regidor"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 600,
+        "municipality_name": "Rio Viejo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 620,
+        "municipality_name": "San Cristóbal"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 647,
+        "municipality_name": "San Estanislao"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 650,
+        "municipality_name": "San Fernando"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 654,
+        "municipality_name": "San Jacinto"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 655,
+        "municipality_name": "San Jacinto del Cauca"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 657,
+        "municipality_name": "San juan Nepomuceno"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 667,
+        "municipality_name": "San Martin de Loba"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 670,
+        "municipality_name": "San Pablo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 673,
+        "municipality_name": "Santa Catalina"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 683,
+        "municipality_name": "Santa Rosa"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 688,
+        "municipality_name": "Santa Rosa del Sur"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 744,
+        "municipality_name": "Simití"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 760,
+        "municipality_name": "Soplaviento"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 780,
+        "municipality_name": "Talaigua nuevo"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 810,
+        "municipality_name": "Tiquisio"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 836,
+        "municipality_name": "Turbaco"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 838,
+        "municipality_name": "Turbana"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 873,
+        "municipality_name": "Villanueva"
+    },
+    {
+        "department_code": 13,
+        "municipality_code": 894,
+        "municipality_name": "Zambrano"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 1,
+        "municipality_name": "Tunja"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 22,
+        "municipality_name": "Almeida"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 47,
+        "municipality_name": "Aquitania"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 51,
+        "municipality_name": "Arcabuco"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 87,
+        "municipality_name": "Belén"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 90,
+        "municipality_name": "Berbeo"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 92,
+        "municipality_name": "Beteitiva"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 97,
+        "municipality_name": "Boavita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 104,
+        "municipality_name": "Boyacá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 106,
+        "municipality_name": "Briceño"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 109,
+        "municipality_name": "Buenavista"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 114,
+        "municipality_name": "Busbanza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 131,
+        "municipality_name": "Caldas"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 135,
+        "municipality_name": "Campohermoso"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 162,
+        "municipality_name": "Cerinza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 172,
+        "municipality_name": "Chinavita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 176,
+        "municipality_name": "Chiquinquirá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 180,
+        "municipality_name": "Chiscas"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 183,
+        "municipality_name": "Chita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 185,
+        "municipality_name": "Chitaraque"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 187,
+        "municipality_name": "Chivata"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 189,
+        "municipality_name": "Ciénega"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 204,
+        "municipality_name": "Combita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 212,
+        "municipality_name": "Coper"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 215,
+        "municipality_name": "Corrales"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 218,
+        "municipality_name": "Covarachia"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 223,
+        "municipality_name": "Cubara"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 224,
+        "municipality_name": "Cucaita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 226,
+        "municipality_name": "Cuitiva"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 232,
+        "municipality_name": "Chíquiza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 236,
+        "municipality_name": "Chivor"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 238,
+        "municipality_name": "Duitama"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 244,
+        "municipality_name": "El cocuy"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 248,
+        "municipality_name": "El espino"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 272,
+        "municipality_name": "Firavitoba"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 276,
+        "municipality_name": "Floresta"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 293,
+        "municipality_name": "Gachantivá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 296,
+        "municipality_name": "Gámeza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 299,
+        "municipality_name": "Garagoa"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 317,
+        "municipality_name": "Guacamayas"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 322,
+        "municipality_name": "Guateque"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 325,
+        "municipality_name": "Guayatá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 332,
+        "municipality_name": "Güicán"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 362,
+        "municipality_name": "Iza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 367,
+        "municipality_name": "Jenesano"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 368,
+        "municipality_name": "Jericó"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 377,
+        "municipality_name": "Labranzagrande"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 380,
+        "municipality_name": "La capilla"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 401,
+        "municipality_name": "La victoria"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 403,
+        "municipality_name": "La uvita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 407,
+        "municipality_name": "Villa de Leyva"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 425,
+        "municipality_name": "Macanal"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 442,
+        "municipality_name": "Maripi"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 455,
+        "municipality_name": "Miraflores"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 464,
+        "municipality_name": "Mongua"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 466,
+        "municipality_name": "Monguí"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 469,
+        "municipality_name": "Moniquirá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 476,
+        "municipality_name": "Motavita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 480,
+        "municipality_name": "Muzo"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 491,
+        "municipality_name": "Nobsa"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 494,
+        "municipality_name": "Nuevo colon"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 500,
+        "municipality_name": "Oicata"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 507,
+        "municipality_name": "Otanche"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 511,
+        "municipality_name": "Pachavita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 514,
+        "municipality_name": "Páez"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 516,
+        "municipality_name": "Paipa"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 518,
+        "municipality_name": "Pajarito"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 522,
+        "municipality_name": "Panqueba"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 531,
+        "municipality_name": "Pauna"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 533,
+        "municipality_name": "Paya"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 537,
+        "municipality_name": "Paz de rio"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 542,
+        "municipality_name": "Pesca"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 550,
+        "municipality_name": "Pisba"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 572,
+        "municipality_name": "Puerto Boyacá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 580,
+        "municipality_name": "Quipama"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 599,
+        "municipality_name": "Ramiriquí"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 600,
+        "municipality_name": "Ráquira"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 621,
+        "municipality_name": "Rondón"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 632,
+        "municipality_name": "Saboya"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 638,
+        "municipality_name": "Sáchica"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 646,
+        "municipality_name": "Samacá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 660,
+        "municipality_name": "San Eduardo"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 664,
+        "municipality_name": "San José de Pare"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 667,
+        "municipality_name": "San Luis de Gaceno"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 673,
+        "municipality_name": "San Mateo"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 676,
+        "municipality_name": "San Miguel de Sema"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 681,
+        "municipality_name": "San Pablo de Borbur"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 686,
+        "municipality_name": "Santana"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 690,
+        "municipality_name": "Santa María"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 693,
+        "municipality_name": "Santa Rosa de Viterbo"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 696,
+        "municipality_name": "Santa Sofia"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 720,
+        "municipality_name": "Sativanorte"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 723,
+        "municipality_name": "Sativasur"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 740,
+        "municipality_name": "Siachoque"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 753,
+        "municipality_name": "Soata"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 755,
+        "municipality_name": "Socotá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 757,
+        "municipality_name": "Socha"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 759,
+        "municipality_name": "Sogamoso"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 761,
+        "municipality_name": "Somondoco"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 762,
+        "municipality_name": "Sora"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 763,
+        "municipality_name": "Sotaquirá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 764,
+        "municipality_name": "Soracá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 774,
+        "municipality_name": "Susacon"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 776,
+        "municipality_name": "Sutamarchan"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 778,
+        "municipality_name": "Sutatenza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 790,
+        "municipality_name": "Tasco"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 798,
+        "municipality_name": "Tenza"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 804,
+        "municipality_name": "Tibaná"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 806,
+        "municipality_name": "Tibasosa"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 808,
+        "municipality_name": "Tinjacá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 810,
+        "municipality_name": "Tipacoque"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 814,
+        "municipality_name": "Toca"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 816,
+        "municipality_name": "Togüí"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 820,
+        "municipality_name": "Tópaga"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 822,
+        "municipality_name": "Tota"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 832,
+        "municipality_name": "Tunungua"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 835,
+        "municipality_name": "Turmequé"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 837,
+        "municipality_name": "Tuta"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 839,
+        "municipality_name": "Tutazá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 842,
+        "municipality_name": "Úmbita"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 861,
+        "municipality_name": "Ventaquemada"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 879,
+        "municipality_name": "Viracachá"
+    },
+    {
+        "department_code": 15,
+        "municipality_code": 897,
+        "municipality_name": "Zetaquira"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 1,
+        "municipality_name": "Manizales"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 13,
+        "municipality_name": "Aguadas"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 42,
+        "municipality_name": "Anserma"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 50,
+        "municipality_name": "Aránzazu"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 88,
+        "municipality_name": "Belalcázar"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 174,
+        "municipality_name": "Chinchiná"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 272,
+        "municipality_name": "Filadelfia"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 380,
+        "municipality_name": "La dorada"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 388,
+        "municipality_name": "La merced"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 433,
+        "municipality_name": "Manzanares"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 442,
+        "municipality_name": "Marmato"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 444,
+        "municipality_name": "Marquetalia"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 446,
+        "municipality_name": "Marulanda"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 486,
+        "municipality_name": "Neira"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 495,
+        "municipality_name": "Norcasia"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 513,
+        "municipality_name": "Pacora"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 524,
+        "municipality_name": "Palestina"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 541,
+        "municipality_name": "Pensilvania"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 614,
+        "municipality_name": "Riosucio"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 616,
+        "municipality_name": "Risaralda"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 653,
+        "municipality_name": "Salamina"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 662,
+        "municipality_name": "Samaná"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 665,
+        "municipality_name": "San José"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 777,
+        "municipality_name": "Supia"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 867,
+        "municipality_name": "Victoria"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 873,
+        "municipality_name": "Villamaría"
+    },
+    {
+        "department_code": 17,
+        "municipality_code": 877,
+        "municipality_name": "Viterbo"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 1,
+        "municipality_name": "Florencia"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 29,
+        "municipality_name": "Albania"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 94,
+        "municipality_name": "Belén de los Andaquies"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 150,
+        "municipality_name": "Cartagena del Chairá"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 205,
+        "municipality_name": "Curillo"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 247,
+        "municipality_name": "El Doncello"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 256,
+        "municipality_name": "El paujil"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 410,
+        "municipality_name": "La montañita"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 460,
+        "municipality_name": "Milán"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 479,
+        "municipality_name": "Morelia"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 592,
+        "municipality_name": "Puerto rico"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 610,
+        "municipality_name": "San José del Fragua"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 753,
+        "municipality_name": "San Vicente del Caguán"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 756,
+        "municipality_name": "Solano"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 785,
+        "municipality_name": "Solita"
+    },
+    {
+        "department_code": 18,
+        "municipality_code": 860,
+        "municipality_name": "Valparaíso"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 1,
+        "municipality_name": "Popayán"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 22,
+        "municipality_name": "Almaguer"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 50,
+        "municipality_name": "Argelia"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 75,
+        "municipality_name": "Balboa"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 100,
+        "municipality_name": "Bolívar"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 110,
+        "municipality_name": "Buenos aires"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 130,
+        "municipality_name": "Cajibío"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 137,
+        "municipality_name": "Caldono"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 142,
+        "municipality_name": "Caloto"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 212,
+        "municipality_name": "Corinto"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 256,
+        "municipality_name": "El tambo"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 290,
+        "municipality_name": "Florencia"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 300,
+        "municipality_name": "Guachené"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 318,
+        "municipality_name": "Guapi"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 355,
+        "municipality_name": "Inza"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 364,
+        "municipality_name": "Jámbalo"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 392,
+        "municipality_name": "La Sierra"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 397,
+        "municipality_name": "La Vega"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 418,
+        "municipality_name": "López"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 450,
+        "municipality_name": "Mercaderes"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 455,
+        "municipality_name": "Miranda"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 473,
+        "municipality_name": "Morales"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 513,
+        "municipality_name": "Padilla"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 517,
+        "municipality_name": "Páez"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 532,
+        "municipality_name": "Patía"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 533,
+        "municipality_name": "Piamonte"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 548,
+        "municipality_name": "Piendamó"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 573,
+        "municipality_name": "Puerto Tejada"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 585,
+        "municipality_name": "Puracé"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 622,
+        "municipality_name": "Rosas"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 693,
+        "municipality_name": "San Sebastián"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 698,
+        "municipality_name": "Santander de Quilichao"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 701,
+        "municipality_name": "Santa rosa"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 743,
+        "municipality_name": "Silvia"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 760,
+        "municipality_name": "Sotará"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 780,
+        "municipality_name": "Suarez"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 785,
+        "municipality_name": "Sucre"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 807,
+        "municipality_name": "Timbío"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 809,
+        "municipality_name": "Timbiquí"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 821,
+        "municipality_name": "Toribio"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 824,
+        "municipality_name": "Totoro"
+    },
+    {
+        "department_code": 19,
+        "municipality_code": 845,
+        "municipality_name": "Villa rica"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 1,
+        "municipality_name": "Valledupar"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 11,
+        "municipality_name": "Aguachica"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 13,
+        "municipality_name": "Agustín Codazzi"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 32,
+        "municipality_name": "Astrea"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 45,
+        "municipality_name": "Becerril"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 60,
+        "municipality_name": "Bosconia"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 175,
+        "municipality_name": "Chimichagua"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 178,
+        "municipality_name": "Chiriguana"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 228,
+        "municipality_name": "Curumaní"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 238,
+        "municipality_name": "El Copey"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 250,
+        "municipality_name": "El Paso"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 295,
+        "municipality_name": "Gamarra"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 310,
+        "municipality_name": "González"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 383,
+        "municipality_name": "La Gloria"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 400,
+        "municipality_name": "La Jagua de Ibirico"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 443,
+        "municipality_name": "Manaure"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 517,
+        "municipality_name": "Pailitas"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 550,
+        "municipality_name": "Pelaya"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 570,
+        "municipality_name": "Pueblo Bello"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 614,
+        "municipality_name": "Rio de oro"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 621,
+        "municipality_name": "La Paz"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 710,
+        "municipality_name": "San Alberto"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 750,
+        "municipality_name": "San diego"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 770,
+        "municipality_name": "San Martin"
+    },
+    {
+        "department_code": 20,
+        "municipality_code": 787,
+        "municipality_name": "Tamalameque"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 1,
+        "municipality_name": "Montería"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 68,
+        "municipality_name": "Ayapel"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 79,
+        "municipality_name": "Buenavista"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 90,
+        "municipality_name": "Canalete"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 162,
+        "municipality_name": "Cerete"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 168,
+        "municipality_name": "Chima"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 182,
+        "municipality_name": "Chinú"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 189,
+        "municipality_name": "Ciénaga de oro"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 300,
+        "municipality_name": "Cotorra"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 350,
+        "municipality_name": "La Apartada"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 417,
+        "municipality_name": "Lorica"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 419,
+        "municipality_name": "Los Córdobas"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 464,
+        "municipality_name": "Momil"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 466,
+        "municipality_name": "Montelíbano"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 500,
+        "municipality_name": "Moñitos"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 555,
+        "municipality_name": "Planeta Rica"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 570,
+        "municipality_name": "Pueblo Nuevo"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 574,
+        "municipality_name": "Puerto Escondido"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 580,
+        "municipality_name": "Puerto Libertador"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 586,
+        "municipality_name": "Purísima"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 660,
+        "municipality_name": "Sahagún"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 670,
+        "municipality_name": "San Andres Sotavento"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 672,
+        "municipality_name": "San Antero"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 675,
+        "municipality_name": "San Bernardo del Viento"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 678,
+        "municipality_name": "San Carlos"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 686,
+        "municipality_name": "San Pelayo"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 807,
+        "municipality_name": "Tierralta"
+    },
+    {
+        "department_code": 23,
+        "municipality_code": 855,
+        "municipality_name": "Valencia"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 1,
+        "municipality_name": "Agua de Dios"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 19,
+        "municipality_name": "Alban"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 35,
+        "municipality_name": "Anapoima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 40,
+        "municipality_name": "Anolaima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 53,
+        "municipality_name": "Arbeláez"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 86,
+        "municipality_name": "Beltrán"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 95,
+        "municipality_name": "Bituima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 99,
+        "municipality_name": "Bojacá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 120,
+        "municipality_name": "Cabrera"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 123,
+        "municipality_name": "Cachipay"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 126,
+        "municipality_name": "Cajicá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 148,
+        "municipality_name": "Caparrapí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 151,
+        "municipality_name": "Cáqueza"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 154,
+        "municipality_name": "Carmen de Carupa"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 168,
+        "municipality_name": "Chaguaní"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 175,
+        "municipality_name": "Chía"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 178,
+        "municipality_name": "Chipaque"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 181,
+        "municipality_name": "Choachí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 183,
+        "municipality_name": "Chocontá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 200,
+        "municipality_name": "Cogua"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 214,
+        "municipality_name": "Cota"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 224,
+        "municipality_name": "Cucunuba"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 245,
+        "municipality_name": "El colegio"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 258,
+        "municipality_name": "El Peñón"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 260,
+        "municipality_name": "El rosal"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 269,
+        "municipality_name": "Facatativá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 279,
+        "municipality_name": "Fomeque"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 281,
+        "municipality_name": "Fosca"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 286,
+        "municipality_name": "Funza"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 288,
+        "municipality_name": "Fúquene"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 290,
+        "municipality_name": "Fusagasugá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 293,
+        "municipality_name": "Gachalá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 295,
+        "municipality_name": "Gachancipá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 297,
+        "municipality_name": "Gacheta"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 299,
+        "municipality_name": "Gama"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 307,
+        "municipality_name": "Girardot"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 312,
+        "municipality_name": "Granada"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 317,
+        "municipality_name": "Guachetá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 320,
+        "municipality_name": "Guaduas"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 322,
+        "municipality_name": "Guasca"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 324,
+        "municipality_name": "Guataquí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 326,
+        "municipality_name": "Guatavita"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 328,
+        "municipality_name": "Guayabal de Siquima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 335,
+        "municipality_name": "Guayabetal"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 339,
+        "municipality_name": "Gutiérrez"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 368,
+        "municipality_name": "Jerusalén"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 372,
+        "municipality_name": "Junín"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 377,
+        "municipality_name": "La Calera"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 386,
+        "municipality_name": "La Mesa"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 394,
+        "municipality_name": "La Palma"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 398,
+        "municipality_name": "La Peña"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 402,
+        "municipality_name": "La Vega"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 407,
+        "municipality_name": "Lenguazaque"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 426,
+        "municipality_name": "Machetá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 430,
+        "municipality_name": "Madrid"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 436,
+        "municipality_name": "Manta"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 438,
+        "municipality_name": "Medina"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 473,
+        "municipality_name": "Mosquera"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 483,
+        "municipality_name": "Nariño"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 486,
+        "municipality_name": "Nemocón"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 488,
+        "municipality_name": "Nilo"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 489,
+        "municipality_name": "Nimaima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 491,
+        "municipality_name": "Nocaima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 506,
+        "municipality_name": "Venecia"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 513,
+        "municipality_name": "Pacho"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 518,
+        "municipality_name": "Paime"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 524,
+        "municipality_name": "Pandi"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 530,
+        "municipality_name": "Paratebueno"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 535,
+        "municipality_name": "Pasca"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 572,
+        "municipality_name": "Puerto salgar"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 580,
+        "municipality_name": "Pulí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 592,
+        "municipality_name": "Quebradanegra"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 594,
+        "municipality_name": "Quetame"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 596,
+        "municipality_name": "Quipile"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 599,
+        "municipality_name": "Apulo"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 612,
+        "municipality_name": "Ricaurte"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 645,
+        "municipality_name": "San Antonio del Tequendama"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 649,
+        "municipality_name": "San bernardo"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 653,
+        "municipality_name": "San cayetano"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 658,
+        "municipality_name": "San francisco"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 662,
+        "municipality_name": "San juan de rio seco"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 718,
+        "municipality_name": "Sasaima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 736,
+        "municipality_name": "Sesquilé"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 740,
+        "municipality_name": "Sibaté"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 743,
+        "municipality_name": "Silvania"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 745,
+        "municipality_name": "Simijaca"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 754,
+        "municipality_name": "Soacha"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 758,
+        "municipality_name": "Sopo"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 769,
+        "municipality_name": "Subachoque"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 772,
+        "municipality_name": "Suesca"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 777,
+        "municipality_name": "Supatá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 779,
+        "municipality_name": "Susa"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 781,
+        "municipality_name": "Sutatausa"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 785,
+        "municipality_name": "Tabio"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 793,
+        "municipality_name": "Tausa"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 797,
+        "municipality_name": "Tena"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 799,
+        "municipality_name": "Tenjo"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 805,
+        "municipality_name": "Tibacuy"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 807,
+        "municipality_name": "Tibirita"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 815,
+        "municipality_name": "Tocaima"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 817,
+        "municipality_name": "Tocancipá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 823,
+        "municipality_name": "Topaipí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 839,
+        "municipality_name": "Ubalá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 841,
+        "municipality_name": "Ubaque"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 843,
+        "municipality_name": "Villa de San Diego de Ubaté"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 845,
+        "municipality_name": "Une"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 851,
+        "municipality_name": "Utica"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 862,
+        "municipality_name": "Vergara"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 867,
+        "municipality_name": "Vianí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 871,
+        "municipality_name": "Villagómez"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 873,
+        "municipality_name": "Villapinzón"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 875,
+        "municipality_name": "Villeta"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 878,
+        "municipality_name": "Viotá"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 885,
+        "municipality_name": "Yacopí"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 898,
+        "municipality_name": "Zipacón"
+    },
+    {
+        "department_code": 25,
+        "municipality_code": 899,
+        "municipality_name": "Zipaquirá"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 1,
+        "municipality_name": "Quibdó"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 6,
+        "municipality_name": "Acandí"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 25,
+        "municipality_name": "Alto Baudó"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 50,
+        "municipality_name": "Atrato"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 73,
+        "municipality_name": "Bagadó"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 75,
+        "municipality_name": "Bahía Solano"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 77,
+        "municipality_name": "Bajo Baudó"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 99,
+        "municipality_name": "Bojayá"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 135,
+        "municipality_name": "El cantón del San Pablo"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 150,
+        "municipality_name": "Carmen del Darién"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 160,
+        "municipality_name": "Certegui"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 205,
+        "municipality_name": "Condoto"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 245,
+        "municipality_name": "El Carmen de Atrato"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 250,
+        "municipality_name": "El Litoral del San Juan"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 361,
+        "municipality_name": "Istmina"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 372,
+        "municipality_name": "Jurado"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 413,
+        "municipality_name": "Lloro"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 425,
+        "municipality_name": "Medio Atrato"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 430,
+        "municipality_name": "Medio Baudó"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 450,
+        "municipality_name": "Medio San Juan"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 491,
+        "municipality_name": "Novita"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 495,
+        "municipality_name": "Nuquí"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 580,
+        "municipality_name": "Rio Iro"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 600,
+        "municipality_name": "Rio Quito"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 615,
+        "municipality_name": "Riosucio"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 660,
+        "municipality_name": "San José del Palmar"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 745,
+        "municipality_name": "Sipí"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 787,
+        "municipality_name": "Tadó"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 800,
+        "municipality_name": "Unguía"
+    },
+    {
+        "department_code": 27,
+        "municipality_code": 810,
+        "municipality_name": "Unión Panamericana"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 1,
+        "municipality_name": "Neiva"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 6,
+        "municipality_name": "Acevedo"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 13,
+        "municipality_name": "Agrado"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 16,
+        "municipality_name": "Aipe"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 20,
+        "municipality_name": "Algeciras"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 26,
+        "municipality_name": "Altamira"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 78,
+        "municipality_name": "Baraya"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 132,
+        "municipality_name": "Campoalegre"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 206,
+        "municipality_name": "Colombia"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 244,
+        "municipality_name": "Elías"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 298,
+        "municipality_name": "Garzón"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 306,
+        "municipality_name": "Gigante"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 319,
+        "municipality_name": "Guadalupe"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 349,
+        "municipality_name": "Hobo"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 357,
+        "municipality_name": "Iquira"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 359,
+        "municipality_name": "Isnos"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 378,
+        "municipality_name": "La argentina"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 396,
+        "municipality_name": "La plata"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 483,
+        "municipality_name": "Nátaga"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 503,
+        "municipality_name": "Oporapa"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 518,
+        "municipality_name": "Paicol"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 524,
+        "municipality_name": "Palermo"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 530,
+        "municipality_name": "Palestina"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 548,
+        "municipality_name": "Pital"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 551,
+        "municipality_name": "Pitalito"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 615,
+        "municipality_name": "Rivera"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 660,
+        "municipality_name": "Saladoblanco"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 668,
+        "municipality_name": "San Agustín"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 676,
+        "municipality_name": "Santa María"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 770,
+        "municipality_name": "Suaza"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 791,
+        "municipality_name": "Tarqui"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 797,
+        "municipality_name": "Tesalia"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 799,
+        "municipality_name": "Tello"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 801,
+        "municipality_name": "Teruel"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 807,
+        "municipality_name": "Timana"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 872,
+        "municipality_name": "Villavieja"
+    },
+    {
+        "department_code": 41,
+        "municipality_code": 885,
+        "municipality_name": "Yaguará"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 1,
+        "municipality_name": "Riohacha"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 35,
+        "municipality_name": "Albania"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 78,
+        "municipality_name": "Barrancas"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 90,
+        "municipality_name": "Dibulla"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 98,
+        "municipality_name": "Distracción"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 110,
+        "municipality_name": "El Molino"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 279,
+        "municipality_name": "Fonseca"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 378,
+        "municipality_name": "Hato nuevo"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 420,
+        "municipality_name": "La Jagua del Pilar"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 430,
+        "municipality_name": "Maicao"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 560,
+        "municipality_name": "Manaure"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 650,
+        "municipality_name": "San Juan del Cesar"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 847,
+        "municipality_name": "Uribia"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 855,
+        "municipality_name": "Urumita"
+    },
+    {
+        "department_code": 44,
+        "municipality_code": 874,
+        "municipality_name": "Villanueva"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 1,
+        "municipality_name": "Santa marta"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 30,
+        "municipality_name": "Algarrobo"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 53,
+        "municipality_name": "Aracataca"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 58,
+        "municipality_name": "Ariguaní"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 161,
+        "municipality_name": "Cerro San Antonio"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 170,
+        "municipality_name": "Chibolo"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 189,
+        "municipality_name": "Ciénaga"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 205,
+        "municipality_name": "Concordia"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 245,
+        "municipality_name": "El Banco"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 258,
+        "municipality_name": "El piñón"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 268,
+        "municipality_name": "El Reten"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 288,
+        "municipality_name": "Fundación"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 318,
+        "municipality_name": "Guamal"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 460,
+        "municipality_name": "Nueva Granada"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 541,
+        "municipality_name": "Pedraza"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 545,
+        "municipality_name": "Pijiño del Carmen"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 551,
+        "municipality_name": "Pivijay"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 555,
+        "municipality_name": "Plato"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 570,
+        "municipality_name": "Pueblo viejo"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 605,
+        "municipality_name": "Remolino"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 660,
+        "municipality_name": "Sabanas de san Ángel"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 675,
+        "municipality_name": "Salamina"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 692,
+        "municipality_name": "San Sebastián de Buenavista"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 703,
+        "municipality_name": "San Zenón"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 707,
+        "municipality_name": "Santa Ana"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 720,
+        "municipality_name": "Santa Bárbara de Pinto"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 745,
+        "municipality_name": "Sitionuevo"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 798,
+        "municipality_name": "Tenerife"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 960,
+        "municipality_name": "Zapayán"
+    },
+    {
+        "department_code": 47,
+        "municipality_code": 980,
+        "municipality_name": "Zona Bananera"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 1,
+        "municipality_name": "Villavicencio"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 6,
+        "municipality_name": "Acacias"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 110,
+        "municipality_name": "Barranca de Upia"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 124,
+        "municipality_name": "Cabuyaro"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 150,
+        "municipality_name": "Castilla la nueva"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 223,
+        "municipality_name": "Cubarral"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 226,
+        "municipality_name": "Cumaral"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 245,
+        "municipality_name": "El Calvario"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 251,
+        "municipality_name": "El Castillo"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 270,
+        "municipality_name": "El Dorado"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 287,
+        "municipality_name": "Fuente de Oro"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 313,
+        "municipality_name": "Granada"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 318,
+        "municipality_name": "Guamal"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 325,
+        "municipality_name": "Mapiripan"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 330,
+        "municipality_name": "Mesetas"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 350,
+        "municipality_name": "La Macarena"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 370,
+        "municipality_name": "Uribe"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 400,
+        "municipality_name": "Lejanías"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 450,
+        "municipality_name": "Puerto Concordia"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 568,
+        "municipality_name": "Puerto Gaitán"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 573,
+        "municipality_name": "Puerto López"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 577,
+        "municipality_name": "Puerto lleras"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 590,
+        "municipality_name": "Puerto rico"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 606,
+        "municipality_name": "Restrepo"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 680,
+        "municipality_name": "San Carlos de Guaroa"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 683,
+        "municipality_name": "San Juan de Arama"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 686,
+        "municipality_name": "San Juanito"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 689,
+        "municipality_name": "San Martin"
+    },
+    {
+        "department_code": 50,
+        "municipality_code": 711,
+        "municipality_name": "Vistahermosa"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 1,
+        "municipality_name": "Pasto"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 19,
+        "municipality_name": "Alban"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 22,
+        "municipality_name": "Aldana"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 36,
+        "municipality_name": "Ancuya"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 51,
+        "municipality_name": "Arboleda"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 79,
+        "municipality_name": "Barbacoas"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 83,
+        "municipality_name": "Belén"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 110,
+        "municipality_name": "Buesaco"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 203,
+        "municipality_name": "Colon"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 207,
+        "municipality_name": "Consaca"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 210,
+        "municipality_name": "Contadero"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 215,
+        "municipality_name": "Córdoba"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 224,
+        "municipality_name": "Cuaspud"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 227,
+        "municipality_name": "Cumbal"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 233,
+        "municipality_name": "Cumbitara"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 240,
+        "municipality_name": "Chachagüí"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 250,
+        "municipality_name": "El charco"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 254,
+        "municipality_name": "El peñol"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 256,
+        "municipality_name": "El rosario"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 258,
+        "municipality_name": "El Tablón de Gómez"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 260,
+        "municipality_name": "El tambo"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 287,
+        "municipality_name": "Funes"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 317,
+        "municipality_name": "Guachucal"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 320,
+        "municipality_name": "Guaitarilla"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 323,
+        "municipality_name": "Gualmatan"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 352,
+        "municipality_name": "Iles"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 354,
+        "municipality_name": "Imues"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 356,
+        "municipality_name": "Ipiales"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 378,
+        "municipality_name": "La Cruz"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 381,
+        "municipality_name": "La Florida"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 385,
+        "municipality_name": "La Llanada"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 390,
+        "municipality_name": "La Tola"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 399,
+        "municipality_name": "La Unión"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 405,
+        "municipality_name": "Leiva"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 411,
+        "municipality_name": "Linares"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 418,
+        "municipality_name": "Los Andes"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 427,
+        "municipality_name": "Magüí"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 435,
+        "municipality_name": "Mallama"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 473,
+        "municipality_name": "Mosquera"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 480,
+        "municipality_name": "Nariño"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 490,
+        "municipality_name": "Olaya herrera"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 506,
+        "municipality_name": "Ospina"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 520,
+        "municipality_name": "Francisco Pizarro"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 540,
+        "municipality_name": "Policarpa"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 560,
+        "municipality_name": "Potosí"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 565,
+        "municipality_name": "Providencia"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 573,
+        "municipality_name": "Puerres"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 585,
+        "municipality_name": "Pupiales"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 612,
+        "municipality_name": "Ricaurte"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 621,
+        "municipality_name": "Roberto Payan"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 678,
+        "municipality_name": "Samaniego"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 683,
+        "municipality_name": "Sandoná"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 685,
+        "municipality_name": "San Bernardo"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 687,
+        "municipality_name": "San Lorenzo"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 693,
+        "municipality_name": "San Pablo"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 694,
+        "municipality_name": "San Pedro de Cartago"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 696,
+        "municipality_name": "Santa Bárbara"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 699,
+        "municipality_name": "Santacruz"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 720,
+        "municipality_name": "Sapuyes"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 786,
+        "municipality_name": "Taminango"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 788,
+        "municipality_name": "Tangua"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 835,
+        "municipality_name": "San Andrés de Tumaco"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 838,
+        "municipality_name": "Tuquerres"
+    },
+    {
+        "department_code": 52,
+        "municipality_code": 885,
+        "municipality_name": "Yacuanquer"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 1,
+        "municipality_name": "Cúcuta"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 3,
+        "municipality_name": "Abrego"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 51,
+        "municipality_name": "Arboledas"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 99,
+        "municipality_name": "Bochalema"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 109,
+        "municipality_name": "Bucarasica"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 125,
+        "municipality_name": "Cacota"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 128,
+        "municipality_name": "Cachira"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 172,
+        "municipality_name": "Chinácota"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 174,
+        "municipality_name": "Chitaga"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 206,
+        "municipality_name": "Convención"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 223,
+        "municipality_name": "Cucutilla"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 239,
+        "municipality_name": "Durania"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 245,
+        "municipality_name": "El Carmen"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 250,
+        "municipality_name": "El Tarra"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 261,
+        "municipality_name": "El Zulia"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 313,
+        "municipality_name": "Gramalote"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 344,
+        "municipality_name": "Hacarí"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 347,
+        "municipality_name": "Herrán"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 377,
+        "municipality_name": "Labateca"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 385,
+        "municipality_name": "La Esperanza"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 398,
+        "municipality_name": "La Playa"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 405,
+        "municipality_name": "Los Patios"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 418,
+        "municipality_name": "Lourdes"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 480,
+        "municipality_name": "Mutiscua"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 498,
+        "municipality_name": "Ocaña"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 518,
+        "municipality_name": "Pamplona"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 520,
+        "municipality_name": "Pamplonita"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 553,
+        "municipality_name": "Puerto Santander"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 599,
+        "municipality_name": "Ragonvalia"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 660,
+        "municipality_name": "Salazar"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 670,
+        "municipality_name": "San Calixto"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 673,
+        "municipality_name": "San Cayetano"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 680,
+        "municipality_name": "Santiago"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 720,
+        "municipality_name": "Sardinata"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 743,
+        "municipality_name": "Silos"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 800,
+        "municipality_name": "Teorama"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 810,
+        "municipality_name": "Tibú"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 820,
+        "municipality_name": "Toledo"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 871,
+        "municipality_name": "Villa Caro"
+    },
+    {
+        "department_code": 54,
+        "municipality_code": 874,
+        "municipality_name": "Villa del Rosario"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 1,
+        "municipality_name": "Armenia"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 111,
+        "municipality_name": "Buenavista"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 130,
+        "municipality_name": "Calarcá"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 190,
+        "municipality_name": "Circasia"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 212,
+        "municipality_name": "Córdoba"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 272,
+        "municipality_name": "Finlandia"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 302,
+        "municipality_name": "Genova"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 401,
+        "municipality_name": "La Tebaida"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 470,
+        "municipality_name": "Montenegro"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 548,
+        "municipality_name": "Pijao"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 594,
+        "municipality_name": "Quimbaya"
+    },
+    {
+        "department_code": 63,
+        "municipality_code": 690,
+        "municipality_name": "Salento"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 1,
+        "municipality_name": "Pereira"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 45,
+        "municipality_name": "Apia"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 75,
+        "municipality_name": "Balboa"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 88,
+        "municipality_name": "Belén de Umbría"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 170,
+        "municipality_name": "Dosquebradas"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 318,
+        "municipality_name": "Guática"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 383,
+        "municipality_name": "La celia"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 400,
+        "municipality_name": "La Virginia"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 440,
+        "municipality_name": "Marsella"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 456,
+        "municipality_name": "Mistrató"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 572,
+        "municipality_name": "Pueblo rico"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 594,
+        "municipality_name": "Quinchía"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 682,
+        "municipality_name": "Santa Rosa de Cabal"
+    },
+    {
+        "department_code": 66,
+        "municipality_code": 687,
+        "municipality_name": "Santuario"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 1,
+        "municipality_name": "Bucaramanga"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 13,
+        "municipality_name": "Aguada"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 20,
+        "municipality_name": "Albania"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 51,
+        "municipality_name": "Aratoca"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 77,
+        "municipality_name": "Barbosa"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 79,
+        "municipality_name": "Barichara"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 81,
+        "municipality_name": "Barrancabermeja"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 92,
+        "municipality_name": "Betulia"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 101,
+        "municipality_name": "Bolívar"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 121,
+        "municipality_name": "Cabrera"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 132,
+        "municipality_name": "California"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 147,
+        "municipality_name": "Capitanejo"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 152,
+        "municipality_name": "Carcasí"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 160,
+        "municipality_name": "Cepita"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 162,
+        "municipality_name": "Cerrito"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 167,
+        "municipality_name": "Charalá"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 169,
+        "municipality_name": "Charta"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 176,
+        "municipality_name": "Chima"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 179,
+        "municipality_name": "Chipatá"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 190,
+        "municipality_name": "Cimitarra"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 207,
+        "municipality_name": "Concepción"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 209,
+        "municipality_name": "Confines"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 211,
+        "municipality_name": "Contratación"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 217,
+        "municipality_name": "Coromoro"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 229,
+        "municipality_name": "Curití"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 235,
+        "municipality_name": "El Carmen de Chucuri"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 245,
+        "municipality_name": "El Guacamayo"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 250,
+        "municipality_name": "El Peñón"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 255,
+        "municipality_name": "El Playón"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 264,
+        "municipality_name": "Encino"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 266,
+        "municipality_name": "Enciso"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 271,
+        "municipality_name": "Florián"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 276,
+        "municipality_name": "Floridablanca"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 296,
+        "municipality_name": "Galán"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 298,
+        "municipality_name": "Gambita"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 307,
+        "municipality_name": "Girón"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 318,
+        "municipality_name": "Guaca"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 320,
+        "municipality_name": "Guadalupe"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 322,
+        "municipality_name": "Guapota"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 324,
+        "municipality_name": "Guavatá"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 327,
+        "municipality_name": "Güepsa"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 344,
+        "municipality_name": "Hato"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 368,
+        "municipality_name": "Jesús María"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 370,
+        "municipality_name": "Jordán"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 377,
+        "municipality_name": "La Belleza"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 385,
+        "municipality_name": "Landázuri"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 397,
+        "municipality_name": "La Paz"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 406,
+        "municipality_name": "Lebrija"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 418,
+        "municipality_name": "Los Santos"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 425,
+        "municipality_name": "Macaravita"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 432,
+        "municipality_name": "Málaga"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 444,
+        "municipality_name": "Matanza"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 464,
+        "municipality_name": "Mogotes"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 468,
+        "municipality_name": "Molagavita"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 498,
+        "municipality_name": "Ocamonte"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 500,
+        "municipality_name": "Oiba"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 502,
+        "municipality_name": "Onzaga"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 522,
+        "municipality_name": "Palmar"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 524,
+        "municipality_name": "Palmas del Socorro"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 533,
+        "municipality_name": "Paramo"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 547,
+        "municipality_name": "Piedecuesta"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 549,
+        "municipality_name": "Pinchote"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 572,
+        "municipality_name": "Puente Nacional"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 573,
+        "municipality_name": "Puerto Parra"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 575,
+        "municipality_name": "Puerto Wilches"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 615,
+        "municipality_name": "Rionegro"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 655,
+        "municipality_name": "Sabana de Torres"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 669,
+        "municipality_name": "San Andres"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 673,
+        "municipality_name": "San Benito"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 679,
+        "municipality_name": "San Gil"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 682,
+        "municipality_name": "San Joaquín"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 684,
+        "municipality_name": "San José de Miranda"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 686,
+        "municipality_name": "San miguel"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 689,
+        "municipality_name": "San Vicente de Chucuri"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 705,
+        "municipality_name": "Santa Bárbara"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 720,
+        "municipality_name": "Santa Helena del Opón"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 745,
+        "municipality_name": "Simacota"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 755,
+        "municipality_name": "Socorro"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 770,
+        "municipality_name": "Suaita"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 773,
+        "municipality_name": "Sucre"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 780,
+        "municipality_name": "Surata"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 820,
+        "municipality_name": "Tona"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 855,
+        "municipality_name": "Valle de San José"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 861,
+        "municipality_name": "Vélez"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 867,
+        "municipality_name": "Vetas"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 872,
+        "municipality_name": "Villanueva"
+    },
+    {
+        "department_code": 68,
+        "municipality_code": 895,
+        "municipality_name": "Zapatoca"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 1,
+        "municipality_name": "Sincelejo"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 110,
+        "municipality_name": "Buenavista"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 124,
+        "municipality_name": "Caimito"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 204,
+        "municipality_name": "Coloso"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 215,
+        "municipality_name": "Corozal"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 221,
+        "municipality_name": "Coveñas"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 230,
+        "municipality_name": "Chalan"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 233,
+        "municipality_name": "El Roble"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 235,
+        "municipality_name": "Galeras"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 265,
+        "municipality_name": "Guaranda"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 400,
+        "municipality_name": "La Unión"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 418,
+        "municipality_name": "Los Palmitos"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 429,
+        "municipality_name": "Majagual"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 473,
+        "municipality_name": "Morroa"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 508,
+        "municipality_name": "Ovejas"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 523,
+        "municipality_name": "Palmito"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 670,
+        "municipality_name": "Sampués"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 678,
+        "municipality_name": "San Benito Abad"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 702,
+        "municipality_name": "San Juan de Betulia"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 708,
+        "municipality_name": "San Marcos"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 713,
+        "municipality_name": "San Onofre"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 717,
+        "municipality_name": "San pedro"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 742,
+        "municipality_name": "San Luis de Sincé"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 771,
+        "municipality_name": "Sucre"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 820,
+        "municipality_name": "Santiago de Tolú"
+    },
+    {
+        "department_code": 70,
+        "municipality_code": 823,
+        "municipality_name": "Tolú viejo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 1,
+        "municipality_name": "Ibagué"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 24,
+        "municipality_name": "Alpujarra"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 26,
+        "municipality_name": "Alvarado"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 30,
+        "municipality_name": "Ambalema"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 43,
+        "municipality_name": "Anzoátegui"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 55,
+        "municipality_name": "Armero"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 67,
+        "municipality_name": "Ataco"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 124,
+        "municipality_name": "Cajamarca"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 148,
+        "municipality_name": "Carmen de Apicalá"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 152,
+        "municipality_name": "Casabianca"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 168,
+        "municipality_name": "Chaparral"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 200,
+        "municipality_name": "Coello"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 217,
+        "municipality_name": "Coyaima"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 226,
+        "municipality_name": "Cunday"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 236,
+        "municipality_name": "Dolores"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 268,
+        "municipality_name": "Espinal"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 270,
+        "municipality_name": "Falan"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 275,
+        "municipality_name": "Flandes"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 283,
+        "municipality_name": "Fresno"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 319,
+        "municipality_name": "Guamo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 347,
+        "municipality_name": "Herveo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 349,
+        "municipality_name": "Honda"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 352,
+        "municipality_name": "Icononzo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 408,
+        "municipality_name": "Lérida"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 411,
+        "municipality_name": "Líbano"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 443,
+        "municipality_name": "Mariquita"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 449,
+        "municipality_name": "Melgar"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 461,
+        "municipality_name": "Murillo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 483,
+        "municipality_name": "Natagaima"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 504,
+        "municipality_name": "Ortega"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 520,
+        "municipality_name": "Palocabildo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 547,
+        "municipality_name": "Piedras"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 555,
+        "municipality_name": "Planadas"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 563,
+        "municipality_name": "Prado"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 585,
+        "municipality_name": "Purificación"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 616,
+        "municipality_name": "Rioblanco"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 622,
+        "municipality_name": "Roncesvalles"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 624,
+        "municipality_name": "Rovira"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 671,
+        "municipality_name": "Saldaña"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 675,
+        "municipality_name": "San Antonio"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 678,
+        "municipality_name": "San Luis"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 686,
+        "municipality_name": "Santa Isabel"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 770,
+        "municipality_name": "Suarez"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 854,
+        "municipality_name": "Valle de San Juan"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 861,
+        "municipality_name": "Venadillo"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 870,
+        "municipality_name": "Villahermosa"
+    },
+    {
+        "department_code": 73,
+        "municipality_code": 873,
+        "municipality_name": "Villarrica"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 1,
+        "municipality_name": "Cali"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 20,
+        "municipality_name": "Alcalá"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 36,
+        "municipality_name": "Andalucía"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 41,
+        "municipality_name": "Ansermanuevo"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 54,
+        "municipality_name": "Argelia"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 100,
+        "municipality_name": "Bolívar"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 109,
+        "municipality_name": "Buenaventura"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 111,
+        "municipality_name": "Guadalajara de Buga"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 113,
+        "municipality_name": "Bugalagrande"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 122,
+        "municipality_name": "Caicedonia"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 126,
+        "municipality_name": "Calima"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 130,
+        "municipality_name": "Candelaria"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 147,
+        "municipality_name": "Cartago"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 233,
+        "municipality_name": "Dagua"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 243,
+        "municipality_name": "El Águila"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 246,
+        "municipality_name": "El Cairo"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 248,
+        "municipality_name": "El Cerrito"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 250,
+        "municipality_name": "El Dovio"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 275,
+        "municipality_name": "Florida"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 306,
+        "municipality_name": "Ginebra"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 318,
+        "municipality_name": "Guacarí"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 364,
+        "municipality_name": "Jamundí"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 377,
+        "municipality_name": "La Cumbre"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 400,
+        "municipality_name": "La Unión"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 403,
+        "municipality_name": "La Victoria"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 497,
+        "municipality_name": "Obando"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 520,
+        "municipality_name": "Palmira"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 563,
+        "municipality_name": "Pradera"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 606,
+        "municipality_name": "Restrepo"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 616,
+        "municipality_name": "Riofrio"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 622,
+        "municipality_name": "Roldanillo"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 670,
+        "municipality_name": "San Pedro"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 736,
+        "municipality_name": "Sevilla"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 823,
+        "municipality_name": "Toro"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 828,
+        "municipality_name": "Trujillo"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 834,
+        "municipality_name": "Tuluá"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 845,
+        "municipality_name": "Ulloa"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 863,
+        "municipality_name": "Versalles"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 869,
+        "municipality_name": "Vijes"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 890,
+        "municipality_name": "Yotoco"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 892,
+        "municipality_name": "Yumbo"
+    },
+    {
+        "department_code": 76,
+        "municipality_code": 895,
+        "municipality_name": "Zarzal"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 1,
+        "municipality_name": "Arauca"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 65,
+        "municipality_name": "Arauquita"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 220,
+        "municipality_name": "Cravo Norte"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 300,
+        "municipality_name": "Fortul"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 591,
+        "municipality_name": "Puerto Rondón"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 736,
+        "municipality_name": "Saravena"
+    },
+    {
+        "department_code": 81,
+        "municipality_code": 794,
+        "municipality_name": "Tame"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 1,
+        "municipality_name": "Yopal"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 10,
+        "municipality_name": "Aguazul"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 15,
+        "municipality_name": "Chameza"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 125,
+        "municipality_name": "Hato corozal"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 136,
+        "municipality_name": "La salina"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 139,
+        "municipality_name": "Maní"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 162,
+        "municipality_name": "Monterrey"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 225,
+        "municipality_name": "Nunchía"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 230,
+        "municipality_name": "Orocue"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 250,
+        "municipality_name": "Paz de Ariporo"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 263,
+        "municipality_name": "Pore"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 279,
+        "municipality_name": "Recetor"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 300,
+        "municipality_name": "Sabanalarga"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 315,
+        "municipality_name": "Sacama"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 325,
+        "municipality_name": "San Luis de Palenque"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 400,
+        "municipality_name": "Tamara"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 410,
+        "municipality_name": "Tauramena"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 430,
+        "municipality_name": "Trinidad"
+    },
+    {
+        "department_code": 85,
+        "municipality_code": 440,
+        "municipality_name": "Villanueva"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 1,
+        "municipality_name": "Mocoa"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 219,
+        "municipality_name": "Colon"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 320,
+        "municipality_name": "Orito"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 568,
+        "municipality_name": "Puerto Asís"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 569,
+        "municipality_name": "Puerto Caicedo"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 571,
+        "municipality_name": "Puerto Guzmán"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 573,
+        "municipality_name": "Leguizamo"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 749,
+        "municipality_name": "Sibundoy"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 755,
+        "municipality_name": "San Francisco"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 757,
+        "municipality_name": "San miguel"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 760,
+        "municipality_name": "Santiago"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 865,
+        "municipality_name": "Valle del Guamuez"
+    },
+    {
+        "department_code": 86,
+        "municipality_code": 885,
+        "municipality_name": "Villagarzón"
+    },
+    {
+        "department_code": 88,
+        "municipality_code": 1,
+        "municipality_name": "San Andres"
+    },
+    {
+        "department_code": 88,
+        "municipality_code": 564,
+        "municipality_name": "Providencia"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 1,
+        "municipality_name": "Leticia"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 263,
+        "municipality_name": "El encanto"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 405,
+        "municipality_name": "La chorrera"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 407,
+        "municipality_name": "La pedrera"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 430,
+        "municipality_name": "La victoria"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 460,
+        "municipality_name": "Mirití - Paraná"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 530,
+        "municipality_name": "Puerto Alegría"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 536,
+        "municipality_name": "Puerto Arica"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 540,
+        "municipality_name": "Puerto Nariño"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 669,
+        "municipality_name": "Puerto Santander"
+    },
+    {
+        "department_code": 91,
+        "municipality_code": 798,
+        "municipality_name": "Tarapacá"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 1,
+        "municipality_name": "Inírida"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 343,
+        "municipality_name": "Barranco Minas"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 663,
+        "municipality_name": "Mapiripana"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 883,
+        "municipality_name": "San Felipe"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 884,
+        "municipality_name": "Puerto Colombia"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 885,
+        "municipality_name": "La Guadalupe"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 886,
+        "municipality_name": "Cacahual"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 887,
+        "municipality_name": "Pana pana"
+    },
+    {
+        "department_code": 94,
+        "municipality_code": 888,
+        "municipality_name": "Morichal"
+    },
+    {
+        "department_code": 95,
+        "municipality_code": 1,
+        "municipality_name": "San José del Guaviare"
+    },
+    {
+        "department_code": 95,
+        "municipality_code": 15,
+        "municipality_name": "Calamar"
+    },
+    {
+        "department_code": 95,
+        "municipality_code": 25,
+        "municipality_name": "El retorno"
+    },
+    {
+        "department_code": 95,
+        "municipality_code": 200,
+        "municipality_name": "Miraflores"
+    },
+    {
+        "department_code": 97,
+        "municipality_code": 1,
+        "municipality_name": "Mitú"
+    },
+    {
+        "department_code": 97,
+        "municipality_code": 161,
+        "municipality_name": "Carurú"
+    },
+    {
+        "department_code": 97,
+        "municipality_code": 511,
+        "municipality_name": "Pacoa"
+    },
+    {
+        "department_code": 97,
+        "municipality_code": 666,
+        "municipality_name": "Taraira"
+    },
+    {
+        "department_code": 97,
+        "municipality_code": 777,
+        "municipality_name": "Papunaua"
+    },
+    {
+        "department_code": 97,
+        "municipality_code": 889,
+        "municipality_name": "Yavarate"
+    },
+    {
+        "department_code": 99,
+        "municipality_code": 1,
+        "municipality_name": "Puerto Carreño"
+    },
+    {
+        "department_code": 99,
+        "municipality_code": 524,
+        "municipality_name": "La primavera"
+    },
+    {
+        "department_code": 99,
+        "municipality_code": 624,
+        "municipality_name": "Santa Rosalía"
+    },
+    {
+        "department_code": 99,
+        "municipality_code": 773,
+        "municipality_name": "Cumaribo"
+    }
+]

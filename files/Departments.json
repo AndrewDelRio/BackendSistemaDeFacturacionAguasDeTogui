@@ -1,0 +1,134 @@
+[
+    {
+        "dane_code": "91",
+        "department_name": "Amazonas"
+    },
+    {
+        "dane_code": "05",
+        "department_name": "Antioquía"
+    },
+    {
+        "dane_code": "81",
+        "department_name": "Arauca"
+    },
+    {
+        "dane_code": "88",
+        "department_name": "San Andrés"
+    },
+    {
+        "dane_code": "08",
+        "department_name": "Atlántico"
+    },
+    {
+        "dane_code": "11",
+        "department_name": "Bogotá D.C."
+    },
+    {
+        "dane_code": "13",
+        "department_name": "Bolivar"
+    },
+    {
+        "dane_code": "15",
+        "department_name": "Boyacá"
+    },
+    {
+        "dane_code": "17",
+        "department_name": "Caldas"
+    },
+    {
+        "dane_code": "18",
+        "department_name": "Caquetá"
+    },
+    {
+        "dane_code": "85",
+        "department_name": "Casanare"
+    },
+    {
+        "dane_code": "19",
+        "department_name": "Cauca"
+    },
+    {
+        "dane_code": "20",
+        "department_name": "Cesar"
+    },
+    {
+        "dane_code": "27",
+        "department_name": "Chocó"
+    },
+    {
+        "dane_code": "23",
+        "department_name": "Córdoba"
+    },
+    {
+        "dane_code": "25",
+        "department_name": "Cundinamarca"
+    },
+    {
+        "dane_code": "94",
+        "department_name": "Guainía"
+    },
+    {
+        "dane_code": "95",
+        "department_name": "Guaviare"
+    },
+    {
+        "dane_code": "41",
+        "department_name": "Huila"
+    },
+    {
+        "dane_code": "44",
+        "department_name": "La Guajira"
+    },
+    {
+        "dane_code": "47",
+        "department_name": "Magdalena"
+    },
+    {
+        "dane_code": "50",
+        "department_name": "Meta"
+    },
+    {
+        "dane_code": "52",
+        "department_name": "Nariño"
+    },
+    {
+        "dane_code": "54",
+        "department_name": "Norte de Santander"
+    },
+    {
+        "dane_code": "86",
+        "department_name": "Putumayo"
+    },
+    {
+        "dane_code": "63",
+        "department_name": "Quindío"
+    },
+    {
+        "dane_code": "66",
+        "department_name": "Risaralda"
+    },
+    {
+        "dane_code": "68",
+        "department_name": "Santander"
+    },
+    {
+        "dane_code": "70",
+        "department_name": "Sucre"
+    },
+    {
+        "dane_code": "73",
+        "department_name": "Tolima"
+    },
+    {
+        "dane_code": "76",
+        "department_name": "Valle del Cauca"
+    },
+    {
+        "dane_code": "97",
+        "department_name": "Vaupés"
+    },
+    {
+        "dane_code": "99",
+        "department_name": "Vichada"
+    }
+]
