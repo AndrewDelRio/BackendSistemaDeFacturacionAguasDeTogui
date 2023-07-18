@@ -7,7 +7,7 @@ const { subscriberController } = require('./SubscribersController');
 const { enrollmentController } = require('./EnrollmentController');
 const { documentTypeController } = require('./DocumentTypeController');
 const { genderController } = require('./GenderController');
-const { departmentsMunicipalitiesController } = require('./Departments-MunicipalitiesController');
+const { departmentsMunicipalitiesController } = require('./DepartmentsMunicipalitiesController');
 
 globalController.use(loginController);
 globalController.use(emailSenderController);

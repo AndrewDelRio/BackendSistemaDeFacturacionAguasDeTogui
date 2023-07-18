@@ -21,6 +21,18 @@ function ordenarAsc(p_array_json, p_key) {
  * Funcion para obtener la lista de departamentos del pais
  */
 departmentsMunicipalitiesController.get('/getDepartments', [JWTokenVerification], (req, res) => {
+    const idDepartment = Number(req.params.id_department);
+    const municipalitiesByDpt = [];
+    let counter = 0;
+    for (let i = 0; i < municipalities.length; i++) {
+        var element = municipalities[i];
+        if (element.department_code === idDepartment) {
+            municipalitiesByDpt[counter] = element.municipality_name;
+            counter++;
+        }
+
+    }
+    departments.cities = municipalitiesByDpt;
     return res.status(200).json({ ok: true, result: ordenarAsc(departments, 'department_name') });
 });
 
@@ -28,15 +40,7 @@ departmentsMunicipalitiesController.get('/getDepartments', [JWTokenVerification]
  * Funcion para obtener los municipios de un departamento
  */
 departmentsMunicipalitiesController.get('/getMunicipalitiesByDpt/:id_department', [JWTokenVerification], (req, res) => {
-    const idDepartment = req.params.id_department;
-    const municipalitiesByDpt = [];
-    for (let i = 0; i < municipalities.length; i++) {
-        const element = municipalities[i];
-        if (element.department_code == idDepartment) {
-            municipalitiesByDpt[i] = element.municipality_name;
-        }
 
-    }
     return res.status(200).json({ ok: true, result: municipalitiesByDpt });
 })
 
