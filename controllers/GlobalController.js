@@ -8,6 +8,7 @@ const { enrollmentController } = require('./EnrollmentController');
 const { documentTypeController } = require('./DocumentTypeController');
 const { genderController } = require('./GenderController');
 const { departmentsMunicipalitiesController } = require('./DepartmentsMunicipalitiesController');
+const { economicDestinationController } = require('./EconomicDestination');
 
 globalController.use(loginController);
 globalController.use(emailSenderController);
@@ -17,5 +18,6 @@ globalController.use(enrollmentController);
 globalController.use(documentTypeController);
 globalController.use(genderController);
 globalController.use(departmentsMunicipalitiesController);
+globalController.use(economicDestinationController);
 
 module.exports = { globalController };
