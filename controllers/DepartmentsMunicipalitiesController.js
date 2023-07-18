@@ -21,27 +21,30 @@ function ordenarAsc(p_array_json, p_key) {
  * Funcion para obtener la lista de departamentos del pais
  */
 departmentsMunicipalitiesController.get('/getDepartments', [JWTokenVerification], (req, res) => {
-    const idDepartment = Number(req.params.id_department);
-    const municipalitiesByDpt = [];
-    let counter = 0;
-    for (let i = 0; i < municipalities.length; i++) {
-        var element = municipalities[i];
-        if (element.department_code === idDepartment) {
-            municipalitiesByDpt[counter] = element.municipality_name;
-            counter++;
-        }
+    for (let i = 0; i < departments.length; i++) {
+        const element = departments[i];
+        departments[i].cities = getMunicipalitiesByIDDepartment(element.dane_code);
 
     }
-    departments.cities = municipalitiesByDpt;
     return res.status(200).json({ ok: true, result: ordenarAsc(departments, 'department_name') });
 });
 
 /**
  * Funcion para obtener los municipios de un departamento
  */
-departmentsMunicipalitiesController.get('/getMunicipalitiesByDpt/:id_department', [JWTokenVerification], (req, res) => {
+function getMunicipalitiesByIDDepartment(idDepartment) {
+    const dptID = Number(idDepartment);
+    const municipalitiesByDpt = [];
+    let counter = 0;
+    for (let i = 0; i < municipalities.length; i++) {
+        var element = municipalities[i];
+        if (element.department_code === dptID) {
+            municipalitiesByDpt[counter] = element.municipality_name;
+            counter++;
+        }
 
-    return res.status(200).json({ ok: true, result: municipalitiesByDpt });
-})
+    }
+    return municipalitiesByDpt;
+}
 
 module.exports = { departmentsMunicipalitiesController };
