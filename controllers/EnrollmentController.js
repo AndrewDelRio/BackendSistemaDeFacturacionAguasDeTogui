@@ -7,7 +7,6 @@ const { QueryTypes } = require('@sequelize/core');
 
 enrollmentController.get('/getEnrollment/:idEnrollment', [JWTokenVerification], (req, res) => {
     const query = 'CALL sp_search_enrollment_and_water_meter(:idEnrollment)';
-    console.log(req.params.idEnrollment);
     enrollmentModel.sequelize.query(query, {
         type: QueryTypes.EXEC, replacements: {
             idEnrollment: req.params.idEnrollment
