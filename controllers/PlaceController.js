@@ -4,7 +4,7 @@ const { Op, QueryTypes } = require('sequelize');
 const { placeModel } = require('../models/PlaceModel');
 const { JWTokenVerification } = require('../middleware/Authentication');
 
-placeController.get('/getDepartmentsInfo', [JWTokenVerification], (req, res) => {
+placeController.get('/getDepartments', [JWTokenVerification], (req, res) => {
     const departments = [];
     const query = 'SELECT id_place, name_place, abbreviation_place FROM places where type_place = "DPT"';
     placeModel.sequelize.query(query, {

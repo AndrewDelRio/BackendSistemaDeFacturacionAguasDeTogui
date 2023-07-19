@@ -11,6 +11,9 @@ const { departmentsMunicipalitiesController } = require('./DepartmentsMunicipali
 const { economicDestinationController } = require('./EconomicDestination');
 const { propertyController } = require('./PropertyController');
 const { placeController } = require('./PlaceController');
+const { propertyTypeController } = require('./PropertyTypeController');
+const { ownershipConditionController } = require('./OwnershipConditioncontroller');
+const { stratumController } = require('./StratumController')
 
 globalController.use(loginController);
 globalController.use(emailSenderController);
@@ -23,5 +26,8 @@ globalController.use(departmentsMunicipalitiesController);
 globalController.use(economicDestinationController);
 globalController.use(propertyController);
 globalController.use(placeController);
+globalController.use(propertyTypeController);
+globalController.use(ownershipConditionController);
+globalController.use(stratumController)
 
 module.exports = { globalController };
