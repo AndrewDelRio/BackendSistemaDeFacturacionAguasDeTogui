@@ -91,7 +91,7 @@ systemUserController.post("/update-personal-data", [JWTokenVerification], (req, 
                 return res.status(500).json({
                     ok: false,
                     error: err,
-                    message: "Error trying to update personal data"
+                    message: "Error trying to connect to database"
                 })
             })
         }
