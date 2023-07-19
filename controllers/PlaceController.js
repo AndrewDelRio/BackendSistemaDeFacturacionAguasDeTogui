@@ -16,6 +16,12 @@ placeController.get('/getDepartmentsInfo', [JWTokenVerification], (req, res) => 
                 result: result
             })
         }
+    }).catch(err => {
+        return res.status(500).json({
+            ok: false,
+            error: err,
+            message: "Error trying to connect to database"
+        })
     })
 });
 
