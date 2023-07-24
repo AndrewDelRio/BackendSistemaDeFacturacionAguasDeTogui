@@ -34,7 +34,6 @@ placeController.get('/getPlacesAssociatedToAPlace/:id_place/:type_place', [JWTok
             }
         }
     }).then(result => {
-        console.log(result)
         if (result) {
             res.status(200).json({
                 ok: true,

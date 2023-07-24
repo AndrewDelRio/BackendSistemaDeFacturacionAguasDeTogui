@@ -44,4 +44,46 @@ propertyController.get('/getProperty/:id_property', [JWTokenVerification], (req,
         })
     })
 })
+
+propertyController.post('/addProperty', [JWTokenVerification], (req, res) => {
+    let newProperty = propertyModel.build({
+        id_property_number: req.body.id_property_number,
+        number_property_registration: req.body.number_property_registration,
+        route_property: req.body.route_property,
+        code_localization_property: req.body.code_localization_property,
+        address_property: req.body.address_property,
+        name_property: req.body.name_property,
+        destination_economic_property: req.body.destination_economic_property,
+        id_place: req.body.id_place,
+        id_stratum: req.body.id_stratum,
+        id_ownership_condition: req.body.id_ownership_condition,
+        id_property_type: req.body.id_property_type
+    });
+    propertyModel.findByPk(req.body.id_property_number).then(result => {
+        if (!result) {
+            newProperty.save().then(resultProperty => {
+                if (resultProperty) {
+                    res.status(200).json({
+                        ok: true,
+                        message: "The property has been successfully registered ",
+                    });
+                }
+            }).catch(err => {
+                res.status(500).json({
+                    ok: false,
+                    message: "Error to try to add the property",
+                    error: err,
+                });
+            })
+        } else {
+            res.status(200).json({ ok: false, message: "The property already exists" });
+        }
+    }).catch(err => {
+        res.status(500).json({
+            ok: false,
+            message: "Error trying to connect to database",
+            error: err,
+        });
+    })
+})
 module.exports = { propertyController };
