@@ -16,6 +16,7 @@ const { ownershipConditionController } = require('./OwnershipConditioncontroller
 const { stratumController } = require('./StratumController');
 const { usePublicServiceController } = require('./UsePublicServiceController');
 const { financingController } = require('./FinancingController');
+const { domesticPublicServiceController } = require('./DomesticPublicServiceController');
 
 globalController.use(loginController);
 globalController.use(emailSenderController);
@@ -33,5 +34,6 @@ globalController.use(ownershipConditionController);
 globalController.use(stratumController);
 globalController.use(usePublicServiceController);
 globalController.use(financingController);
+globalController.use(domesticPublicServiceController);
 
 module.exports = { globalController };
