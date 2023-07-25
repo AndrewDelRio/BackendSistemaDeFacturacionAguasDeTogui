@@ -117,13 +117,24 @@ propertyController.post('/updateProperty', [JWTokenVerification], (req, res) => 
             res.status(200).json({ ok: false, message: "The property doesn't exist" });
         }
     }).catch(err => {
-        res
-            .status(500)
-            .json({
-                ok: false,
-                message: "Error to try to connect the database",
-                error: err,
+        res.status(500).json({
+            ok: false,
+            message: "Error to try to connect the database",
+            error: err,
+        });
+    })
+});
+
+propertyController.get('/getAllProperties', [JWTokenVerification], (req, res) => {
+    propertyModel.findAll({
+        attributes: ['id_property_number', 'name_property']
+    }).then((result) => {
+        if (result) {
+            res.status(200).json({
+                ok: true,
+                result: result
             });
+        }
     })
 })
 module.exports = { propertyController };
