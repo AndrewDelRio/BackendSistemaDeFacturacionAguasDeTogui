@@ -80,6 +80,9 @@ subscriberController.post('/addSubscriber', [JWTokenVerification], (req, res) =>
     });
 });
 
+/**
+ * Update subscriber information
+ */
 subscriberController.post('/updateSubscriber', [JWTokenVerification], (req, res) => {
     subscriberModel.findByPk(req.body.id_subscriber).then((result) => {
         if (result) {
@@ -96,6 +99,23 @@ subscriberController.post('/updateSubscriber', [JWTokenVerification], (req, res)
         }
     }).catch((err) => {
         res.status(500).json({ ok: false, message: 'Error to try to connect to the database', error: err })
+    })
+})
+
+subscriberController.get('/getAllSubscribers', [JWTokenVerification], (req, res) => {
+    subscriberModel.findAll({ attributes: ['id_subscriber', 'names_subscriber', 'lastnames_subscriber'] }).then((result) => {
+        if (result) {
+            res.status(200).json({
+                ok: true,
+                result: result
+            })
+        }
+    }).catch(err => {
+        return res.status(500).json({
+            ok: false,
+            error: err,
+            message: "Error trying to connect to database"
+        })
     })
 })
 
