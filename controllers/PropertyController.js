@@ -135,6 +135,12 @@ propertyController.get('/getAllProperties', [JWTokenVerification], (req, res) =>
                 result: result
             });
         }
+    }).catch((err) => {
+        res.status(500).json({
+            ok: false,
+            message: "Error to try to connect the database",
+            error: err,
+        });
     })
 })
 module.exports = { propertyController };
