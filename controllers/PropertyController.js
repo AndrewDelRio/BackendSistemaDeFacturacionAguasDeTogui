@@ -86,4 +86,44 @@ propertyController.post('/addProperty', [JWTokenVerification], (req, res) => {
         });
     })
 })
+
+propertyController.post('/updateProperty', [JWTokenVerification], (req, res) => {
+    propertyModel.findOne({
+        where: {
+            id_property_number: req.body.id_property_number
+        }
+    }).then((result) => {
+        if (result) {
+            result.name_property = req.body.name_property;
+            result.destination_economic_property = req.body.destination_economic_property;
+            result.code_localization_property = req.body.code_localization_property;
+            result.id_stratum = req.body.id_stratum;
+            result.route_property = req.body.route_property;
+            result.id_ownership_condition = req.body.id_ownership_condition;
+            result.save().then(() => {
+                res.status(200).json({
+                    ok: true,
+                    message:
+                        "The information has been updated",
+                });
+            }).catch(err => {
+                res.status(500).json({
+                    ok: false,
+                    message: "Error to trying to update the information",
+                    error: err,
+                });
+            })
+        } else {
+            res.status(200).json({ ok: false, message: "The property doesn't exist" });
+        }
+    }).catch(err => {
+        res
+            .status(500)
+            .json({
+                ok: false,
+                message: "Error to try to connect the database",
+                error: err,
+            });
+    })
+})
 module.exports = { propertyController };
