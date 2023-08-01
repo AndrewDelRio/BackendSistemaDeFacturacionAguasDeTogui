@@ -17,6 +17,7 @@ const { stratumController } = require('./StratumController');
 const { usePublicServiceController } = require('./UsePublicServiceController');
 const { financingController } = require('./FinancingController');
 const { domesticPublicServiceController } = require('./DomesticPublicServiceController');
+const { waterMeterController } = require('./WatermeterController')
 
 globalController.use(loginController);
 globalController.use(emailSenderController);
@@ -35,5 +36,6 @@ globalController.use(stratumController);
 globalController.use(usePublicServiceController);
 globalController.use(financingController);
 globalController.use(domesticPublicServiceController);
+globalController.use(waterMeterController)
 
 module.exports = { globalController };

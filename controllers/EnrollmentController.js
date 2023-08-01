@@ -16,7 +16,7 @@ enrollmentController.get('/getEnrollment/:idEnrollment', [JWTokenVerification], 
         if (!(result.length === 0)) {
             return res.status(200).json({
                 ok: true,
-                result: result
+                result: result[0]
             })
         } else {
             return res.status(200).json({
@@ -37,7 +37,7 @@ enrollmentController.post('/addEnrollment', [JWTokenVerification], (req, res) =>
     let newEnrollment = enrollmentModel.build({
         id_enrollment: null,
         date_adward: req.body.date_adward,
-        state_enrollment: 'Adjudicada',
+        state_enrollment: 'Adju',
         id_financing: Number(req.body.id_financing),
         id_property_number: req.body.id_property_number,
         id_subscriber: Number(req.body.id_subscriber),
@@ -54,10 +54,9 @@ enrollmentController.post('/addEnrollment', [JWTokenVerification], (req, res) =>
             });
             newHistoricalEnrollment.save().then((historicalResult) => {
                 if (historicalResult) {
-
                     res.status(200).json({ ok: true, message: 'The enrollment has been added to the system', result: result.id_enrollment });
                 } else {
-                    res.status(500).json({ ok: false, message: 'Error to try add the historical enrollment', error: err });
+                    res.status(500).json({ ok: false, message: 'Error to try add the historical enrollment' });
                 }
             }).catch((err) => {
                 res.status(500).json({ ok: false, message: 'Error to try to add the enrollment', error: err });
