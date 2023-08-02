@@ -72,7 +72,6 @@ waterMeterController.post('/updateWatermeter', [JWTokenVerification], (req, res)
                             res.status(200).json({ ok: true, message: 'The watermeter has been added to the system' });
                         }
                     }).catch((err) => {
-                        console.log(err)
                         res.status(500).json({ ok: false, message: 'Error to try to add the watermeter', error: err });
                     })
                 }

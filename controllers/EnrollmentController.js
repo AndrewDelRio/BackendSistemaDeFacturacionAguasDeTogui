@@ -74,4 +74,44 @@ enrollmentController.get('/getEnrollmentStates', [JWTokenVerification], (req, re
     return res.status(200).json({ ok: true, result: enrollmentsStateList });
 })
 
+enrollmentController.post('/updateEnrollment', [JWTokenVerification], (req, res) => {
+    enrollmentModel.findOne({
+        where: { id_enrollment: req.body.id_enrollment }
+    }).then((result) => {
+        if (result) {
+            result.state_enrollment = req.body.state_enrollment
+            result.id_property_number = req.body.id_property_number
+            result.id_subscriber = req.body.id_subscriber
+            result.id_use_public_service = req.body.id_use_public_service
+            result.save().then((resultUpdating) => {
+                if (resultUpdating) {
+                    let newHistoricalEnrollment = historicalEnrollmentModel.build({
+                        id_historical_enrollment: null,
+                        date_operation: new Date(),
+                        type_operation: resultUpdating.state_enrollment,
+                        observations: '',
+                        id_enrollment: resultUpdating.id_enrollment
+                    });
+                    newHistoricalEnrollment.save().then((resultHistorical) => {
+                        if (resultHistorical) {
+                            res.status(200).json({ ok: true, message: 'The dates has been updated' });
+                        } else {
+                            res.status(500).json({ ok: false, message: 'Error to try update the information' });
+                        }
+                    })
+                } else {
+                    res.status(500).json({ ok: false, message: 'Error to try update the enrollment' });
+                }
+            }).catch((err) => {
+                res.status(500).json({ ok: false, message: 'Error to try update the enrollment' });
+            })
+        } else {
+            return res.status(200).json({ ok: false, message: 'The ID enrollment dont exists' });
+        }
+    }).catch((err) => {
+        console.log(err)
+        res.status(500).json({ ok: false, message: 'Error to try connect to the database', error: err });
+    })
+})
+
 module.exports = { enrollmentController }
