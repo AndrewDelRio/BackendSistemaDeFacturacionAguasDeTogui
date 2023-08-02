@@ -51,7 +51,7 @@ waterMeterController.post('/addWaterMeter', [JWTokenVerification], (req, res) =>
     })
 })
 
-waterMeterController.post('/updateWatermeter', /**[JWTokenVerification], */(req, res) => {
+waterMeterController.post('/updateWatermeter', [JWTokenVerification], (req, res) => {
     waterMeterModel.findOne({
         where: { serial_water_meter: req.body.old_serial_water_meter }
     }).then((result) => {
