@@ -41,7 +41,8 @@ enrollmentController.post('/addEnrollment', [JWTokenVerification], (req, res) =>
         id_financing: Number(req.body.id_financing),
         id_property_number: req.body.id_property_number,
         id_subscriber: Number(req.body.id_subscriber),
-        cuotes_financing: Number(req.body.cuotes_financing)
+        cuotes_financing: Number(req.body.cuotes_financing),
+        id_use_public_service: Number(req.body.id_use_public_service)
     });
     newEnrollment.save().then((result) => {
         if (result) {
@@ -63,6 +64,7 @@ enrollmentController.post('/addEnrollment', [JWTokenVerification], (req, res) =>
             })
         }
     }).catch((err) => {
+        console.log(err)
         res.status(500).json({ ok: false, message: 'Error to try connect to the database', error: err });
     })
 })

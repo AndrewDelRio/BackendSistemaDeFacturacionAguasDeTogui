@@ -5,13 +5,14 @@ const { JWTokenVerification } = require('../middleware/Authentication');
 
 contractedPublicServicesController.post('/addServicesPublicContracted', [JWTokenVerification], (req, res) => {
     const servicesPublicList = req.body.servicePublicList;
+    console.log(servicesPublicList)
+    console.log(req.body.id_enrollment)
     if (servicesPublicList != null && servicesPublicList.length > 0) {
         let counterInserted = 0;
         servicesPublicList.map(function (servicePublic) {
             let newServicePublicContracted = contractedPublicServiceListModel.build({
                 id_enrollment: req.body.id_enrollment,
-                id_domestic_public_service: servicePublic,
-                id_use_public_service: req.body.id_use_public_service
+                id_domestic_public_service: servicePublic
             });
             newServicePublicContracted.save().then((result) => {
                 if (result) {
@@ -21,6 +22,7 @@ contractedPublicServicesController.post('/addServicesPublicContracted', [JWToken
                     }
                 }
             }).catch((err) => {
+                console.log(err)
                 res.status(500).json({ ok: false, message: 'Error to try connect to the database', error: err });
             })
 

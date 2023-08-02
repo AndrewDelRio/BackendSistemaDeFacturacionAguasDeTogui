@@ -33,6 +33,10 @@ const attributes = {
     cuotes_financing: {
         type: DataTypes.INTEGER,
         allowNull: false
+    },
+    id_use_public_service: {
+        type: DataTypes.INTEGER,
+        allowNull: false
     }
 };
 
