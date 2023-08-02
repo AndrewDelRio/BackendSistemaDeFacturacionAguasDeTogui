@@ -5,6 +5,33 @@ const { waterMeterModel } = require('../models/WaterMeterModel');
 const { JWTokenVerification } = require('../middleware/Authentication');
 const { QueryTypes } = require('@sequelize/core');
 
+waterMeterController.get('/getWatermeter/:idEnrollment', [JWTokenVerification], (req, res) => {
+    waterMeterModel.findAll({
+        where: {
+            [Op.and]: {
+                id_enrollment: req.params.idEnrollment,
+                state_water_meter: true
+            }
+        }
+
+    }).then((result) => {
+        if (result) {
+            res.status(200).json({
+                ok: true,
+                result: result
+            })
+        } else {
+            res.status(200).json({
+                ok: false,
+                message: 'The enrollment dont have watermeter'
+            })
+        }
+    }).catch((err) => {
+        return res.status(500).json({
+            ok: false, error: err, code: 501, message: "Error trying to connect to database"
+        })
+    })
+})
 
 waterMeterController.post('/addWaterMeter', [JWTokenVerification], (req, res) => {
     let newWaterMeter = waterMeterModel.build({
