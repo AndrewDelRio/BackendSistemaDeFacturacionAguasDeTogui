@@ -10,7 +10,6 @@ billingPeriodController.get('/getLastBillingPeriodID', [JWTokenVerification], (r
     billingPeriodModel.sequelize.query(query, {
         type: QueryTypes.SELECT
     }).then((result) => {
-        console.log(result)
         if (result[0].id_period) {
             return res.status(200).json({ ok: true, result: result[0] })
         } else {
