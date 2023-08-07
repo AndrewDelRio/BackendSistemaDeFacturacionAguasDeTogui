@@ -5,8 +5,6 @@ const { JWTokenVerification } = require('../middleware/Authentication');
 
 contractedPublicServicesController.post('/addServicesPublicContracted', [JWTokenVerification], (req, res) => {
     const servicesPublicList = req.body.servicePublicList;
-    console.log(servicesPublicList)
-    console.log(req.body.id_enrollment)
     if (servicesPublicList != null && servicesPublicList.length > 0) {
         let counterInserted = 0;
         servicesPublicList.map(function (servicePublic) {
@@ -22,7 +20,6 @@ contractedPublicServicesController.post('/addServicesPublicContracted', [JWToken
                     }
                 }
             }).catch((err) => {
-                console.log(err)
                 res.status(500).json({ ok: false, message: 'Error to try connect to the database', error: err });
             })
 

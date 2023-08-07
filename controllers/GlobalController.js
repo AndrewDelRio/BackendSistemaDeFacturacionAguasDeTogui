@@ -19,6 +19,7 @@ const { financingController } = require('./FinancingController');
 const { domesticPublicServiceController } = require('./DomesticPublicServiceController');
 const { waterMeterController } = require('./WatermeterController')
 const { contractedPublicServicesController } = require('./ContractedPublicServicesController');
+const { billingPeriodController } = require('./BillingPeriodController')
 
 globalController.use(loginController);
 globalController.use(emailSenderController);
@@ -39,5 +40,6 @@ globalController.use(financingController);
 globalController.use(domesticPublicServiceController);
 globalController.use(waterMeterController);
 globalController.use(contractedPublicServicesController);
+globalController.use(billingPeriodController);
 
 module.exports = { globalController };
