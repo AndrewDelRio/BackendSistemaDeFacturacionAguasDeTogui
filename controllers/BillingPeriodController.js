@@ -20,4 +20,31 @@ billingPeriodController.get('/getLastBillingPeriodID', [JWTokenVerification], (r
     })
 })
 
+billingPeriodController.get('/getStructuredDateFromAPeriod/:id_period', [JWTokenVerification], (req, res) => {
+    const query = 'SELECT f_get_structured_date_from_a_billing_period(:id_period) as structured_date';
+    billingPeriodModel.sequelize.query(query, {
+        type: QueryTypes.SELECT,
+        replacements: { id_period: req.params.id_period }
+    }).then((result) => {
+        if (result) {
+            res.status(200).json({ ok: true, result: result[0] })
+        }
+    }).catch((err) => {
+        res.status(500).json({ ok: false, message: 'Error to try connect to the database', error: err });
+    })
+})
+
+billingPeriodController.get('/projectTheNextBillingPeriod', [JWTokenVerification], (req, res) => {
+    const query = 'CALL sp_project_next_billing_period()';
+    billingPeriodModel.sequelize.query(query, {
+        type: QueryTypes.EXEC
+    }).then((result) => {
+        if (result) {
+            res.status(200).json({ ok: true, result: result })
+        }
+    }).catch((err) => {
+        res.status(500).json({ ok: false, message: 'Error to try connect to the database', error: err });
+    })
+})
+
 module.exports = { billingPeriodController };
