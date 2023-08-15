@@ -21,6 +21,7 @@ const { waterMeterController } = require('./WatermeterController')
 const { contractedPublicServicesController } = require('./ContractedPublicServicesController');
 const { billingPeriodController } = require('./BillingPeriodController')
 const { billingController } = require('./BillingController')
+const { chargeController } = require('./ChargeController')
 
 globalController.use(loginController);
 globalController.use(emailSenderController);
@@ -42,6 +43,7 @@ globalController.use(domesticPublicServiceController);
 globalController.use(waterMeterController);
 globalController.use(contractedPublicServicesController);
 globalController.use(billingPeriodController);
-globalController.use(billingController)
+globalController.use(billingController);
+globalController.use(chargeController);
 
 module.exports = { globalController };
